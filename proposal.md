@@ -61,16 +61,16 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    subgraph offline["離線：定期匯入"]
-        TDX["交通部 TDX API<br/>公車、捷運站序"] --> ETL["匯入程式"]
-    end
-    ETL --> DB[("資料庫<br/>站牌、路線、站序")]
     subgraph online["線上：每次查詢"]
         User["使用者"] --> FE["前端<br/>地圖與列表"]
         FE -->|"查詢地點"| API["後端 API<br/>直達計算"]
-        API -->|"只傳查詢結果"| LLM["LLM<br/>可達地點摘要"]
     end
-    API -->|"讀取"| DB
+    API -->|"只傳查詢結果"| LLM["LLM（外部服務）<br/>可達地點摘要"]
+    API -->|"讀取"| DB[("資料庫<br/>站牌、路線、站序")]
+    subgraph offline["離線：定期匯入"]
+        TDX["交通部 TDX API<br/>公車、捷運站序"] --> ETL["匯入程式"]
+    end
+    ETL -->|"寫入"| DB
     style offline fill:none,stroke:#999,stroke-dasharray:4 4
     style online fill:none,stroke:#999,stroke-dasharray:4 4
 ```
