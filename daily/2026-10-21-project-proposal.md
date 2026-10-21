@@ -1,0 +1,1 @@
+![alt text](../images/2026-10-21-project-proposal/image.png)
