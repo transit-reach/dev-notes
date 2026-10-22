@@ -10,6 +10,7 @@
 | 日期 | 主題 |
 | --- | --- |
 | 2026-10-21 | [選題與可行性分析](daily/2026-10-21-project-proposal.md) |
+| 2026-10-22 | [通用 AI 基準實驗與提案調整](daily/2026-10-22-llm-baseline-experiment.md) |
 
 ## 實驗
 
