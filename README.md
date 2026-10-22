@@ -11,6 +11,12 @@
 | --- | --- |
 | 2026-10-21 | [選題與可行性分析](daily/2026-10-21-project-proposal.md) |
 
+## 實驗
+
+| 日期 | 實驗 |
+| --- | --- |
+| 2026-10-22 | [通用 AI 回答大眾運輸直達問題的侷限性與涵蓋率](experiments/llm-baseline.md) |
+
 ## 相關 Repository
 
 | Repository | 內容 | 狀態 |
