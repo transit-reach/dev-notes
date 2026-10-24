@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 600" width="820" height="600" font-family="'Noto Sans TC','Noto Sans CJK TC','Microsoft JhengHei','PingFang TC',sans-serif">
+  <defs>
+    <marker id="arrow-h" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#2f9e74"/>
+    </marker>
+    <marker id="arrow-v" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#5b5bd6"/>
+    </marker>
+  </defs>
+
+  <rect width="820" height="600" fill="#f2f2f2"/>
+  <text x="410" y="48" text-anchor="middle" font-size="30" font-weight="700" fill="#222">產品定位地圖</text>
+
+  <!-- 縱軸 -->
+  <line x1="400" y1="530" x2="400" y2="128" stroke="#5b5bd6" stroke-width="5" marker-end="url(#arrow-v)"/>
+  <text x="400" y="108" text-anchor="middle" font-size="19" font-weight="700" fill="#5b5bd6">知道搭哪條線、到哪裡</text>
+  <text x="400" y="566" text-anchor="middle" font-size="19" font-weight="700" fill="#5b5bd6">只知道附近有什麼</text>
+
+  <!-- 橫軸 -->
+  <line x1="172" y1="325" x2="640" y2="325" stroke="#2f9e74" stroke-width="5" marker-end="url(#arrow-h)"/>
+  <text x="164" y="332" text-anchor="end" font-size="19" font-weight="700" fill="#2f9e74">需先知道目的地</text>
+  <text x="652" y="332" font-size="19" font-weight="700" fill="#2f9e74">只要給起點</text>
+
+  <!-- Google Maps -->
+  <rect x="145" y="161" width="170" height="58" rx="4" fill="#fff" stroke="#ddd"/>
+  <text x="230" y="186" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Google Maps</text>
+  <text x="230" y="208" text-anchor="middle" font-size="13" fill="#555">先知道目的地才能查</text>
+
+  <!-- 本工具 -->
+  <rect x="510" y="146" width="180" height="58" rx="4" fill="#ececfb" stroke="#5b5bd6" stroke-width="2.5"/>
+  <text x="600" y="171" text-anchor="middle" font-size="17" font-weight="700" fill="#3b3bb0">本工具</text>
+  <text x="600" y="193" text-anchor="middle" font-size="13" fill="#3b3bb0">給起點，列出可直達地標</text>
+
+  <!-- 通用 AI -->
+  <rect x="475" y="251" width="170" height="58" rx="4" fill="#fff" stroke="#ddd"/>
+  <text x="560" y="276" text-anchor="middle" font-size="17" font-weight="700" fill="#222">通用 AI</text>
+  <text x="560" y="298" text-anchor="middle" font-size="13" fill="#555">答不完整，會捏造站點</text>
+
+  <!-- Bus+ -->
+  <rect x="415" y="351" width="170" height="58" rx="4" fill="#fff" stroke="#ddd"/>
+  <text x="500" y="376" text-anchor="middle" font-size="17" font-weight="700" fill="#222">Bus+、台北等公車</text>
+  <text x="500" y="398" text-anchor="middle" font-size="13" fill="#555">要逐站、逐條點開</text>
+
+  <!-- 等時圈工具 -->
+  <rect x="598" y="371" width="180" height="58" rx="4" fill="#fff" stroke="#ddd"/>
+  <text x="688" y="396" text-anchor="middle" font-size="17" font-weight="700" fill="#222">等時圈工具</text>
+  <text x="688" y="418" text-anchor="middle" font-size="13" fill="#555">只看範圍，不知搭哪條線</text>
+
+  <!-- 租屋平台 -->
+  <rect x="475" y="456" width="170" height="58" rx="4" fill="#fff" stroke="#ddd"/>
+  <text x="560" y="481" text-anchor="middle" font-size="17" font-weight="700" fill="#222">租屋平台</text>
+  <text x="560" y="503" text-anchor="middle" font-size="13" fill="#555">只列物件附近的站</text>
+</svg>
