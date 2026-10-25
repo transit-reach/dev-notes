@@ -27,8 +27,6 @@
 
 **決策：Ubuntu 選 Server 版**。開發時從 Windows 透過 SSH 連進 VM，用不到桌面；Server 版資源需求較低，也和實際部署的伺服器環境一致。
 
-<!-- 貼上：VS Code Remote-SSH 連線畫面 -->
-
 ## 3. 踩坑紀錄
 
 ### 3-1. 安裝 Ubuntu 時，系統只分配到一半的磁碟
@@ -55,8 +53,7 @@ Filesystem                         Size  Used Avail Use% Mounted on
 permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
 ```
 
-<!-- 貼上：permission denied 截圖 -->
-
+![alt text](../images/2026-10-24-dev-environment/image-1.png)
 **原因**：Linux 的群組權限在**登入時**才載入。使用 VS Code Remote-SSH 時，關掉視窗不會真的登出，VM 裡的 VS Code Server 繼續執行，新開的終端機沿用舊的身分，所以還沒有 docker 群組。
 
 **診斷**：
@@ -106,8 +103,7 @@ $ uv run tdx_fetch.py
   已存 data/raw/metro_station_of_line_trtc.json：5 筆，32 KB
 ```
 
-<!-- 貼上：執行結果截圖 -->
-
+![alt text](../images/2026-10-24-dev-environment/image.png)
 **觀察：為什麼台北市公車有 1241 筆？**
 
 每一筆是「一個子路線的一個方向」的站序，不是一條路線：
