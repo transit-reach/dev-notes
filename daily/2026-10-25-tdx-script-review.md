@@ -20,14 +20,40 @@ main()
 
 ### 呼叫 API 時，token 為什麼放在 header？
 
-換 token 和使用 token 依循的規範不同：
+一個 HTTP 請求分成三部分，類似通訊封包的 header 與 payload：
 
-| | 換 token | 呼叫 API |
-| --- | --- | --- |
-| HTTP 方法 | POST | GET |
-| 憑證放在哪 | 請求本體（表單格式） | `Authorization: Bearer <token>` header |
+```
+請求行   方法 + 網址
+Header   附加資訊（名稱: 值）
 
-GET 請求沒有本體，放在網址裡又會留在伺服器紀錄中，所以 `Authorization` header 是呼叫 API 時放憑證的標準位置。`Bearer` 的意思是「持有者」，誰拿著 token 誰就能用，因此 token 要保護好，且設有效期限。
+Body     真正要傳送的內容（可以沒有）
+```
+
+腳本實際送出的兩個請求：
+
+```
+POST /auth/realms/TDXConnect/protocol/openid-connect/token HTTP/1.1
+Host: tdx.transportdata.tw
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=client_credentials&client_id=...&client_secret=...
+```
+
+```
+GET /api/basic/v2/Bus/StopOfRoute/City/Taipei?$format=JSON HTTP/1.1
+Host: tdx.transportdata.tw
+Authorization: Bearer eyJ...（token）
+Accept-Encoding: gzip
+```
+
+差別在於**請求的目的**：
+
+- **換 token**：目的就是送出帳號密碼換 token，帳號密碼是這個請求的內容，所以放 **body**。
+- **呼叫 API**：目的是取得站序（已寫在網址），token 只是證明「我有權限」的附加資訊，所以放 **header**。
+
+token 也不適合放在其他位置：放網址會被記錄在伺服器日誌與瀏覽器歷史中；GET 請求慣例上沒有 body。業界統一使用 `Authorization: Bearer <token>`，伺服器只要固定檢查這個 header。`Bearer` 意為「持有者」，誰拿著 token 誰就能用，因此 token 要保護好，且設有效期限。
+
+> body 放「這個請求要送的內容」，header 放「關於這個請求的附加資訊」。
 
 ### `Accept-Encoding: gzip` 的作用
 
