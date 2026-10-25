@@ -12,6 +12,7 @@
 | 2026-10-21 | [選題與可行性分析](daily/2026-10-21-project-proposal.md) |
 | 2026-10-22 | [通用 AI 基準實驗與提案調整](daily/2026-10-22-llm-baseline-experiment.md) |
 | 2026-10-24 | [開發環境建置與第一次呼叫 TDX API](daily/2026-10-24-dev-environment.md) |
+| 2026-10-25 | [讀懂 TDX 取資料腳本](daily/2026-10-25-tdx-script-review.md) |
 ## 實驗
 
 | 日期 | 實驗 |
