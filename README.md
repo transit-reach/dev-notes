@@ -14,6 +14,7 @@
 | 2026-10-24 | [開發環境建置與第一次呼叫 TDX API](daily/2026-10-24-dev-environment.md) |
 | 2026-10-25 | [讀懂 TDX 取資料腳本](daily/2026-10-25-tdx-script-review.md) |
 | 2026-10-26 | [驗證 TDX API 與分析公車資料](daily/2026-10-26-tdx-data-analysis.md) |
+| 2026-10-27 | [資料庫設計與資料匯入](daily/2026-10-27-database-import.md) | schema 定案、PostGIS 匯入公車資料、空間查詢與 Bus+ 6/6 吻合 |
 
 ## 實驗
 
