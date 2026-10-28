@@ -11,7 +11,7 @@
 
 整理在 [design/database.md](../design/database.md)，包含 ER 圖、欄位說明、各表筆數與設計重點。
 
-![alt text](../images/2026-10-28-competitor-survey/image-1.png)
+![alt text](../images/2026-10-28-competitor-survey/image-2.png)
 
 ## 2. 調查：有沒有 AI 工具做類似的功能
 
