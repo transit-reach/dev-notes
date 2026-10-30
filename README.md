@@ -15,6 +15,9 @@
 | 2026-10-25 | [讀懂 TDX 取資料腳本](daily/2026-10-25-tdx-script-review.md) |
 | 2026-10-26 | [驗證 TDX API 與分析公車資料](daily/2026-10-26-tdx-data-analysis.md) |
 | 2026-10-27 | [資料庫設計與資料匯入](daily/2026-10-27-database-import.md) | schema 定案、PostGIS 匯入公車資料、空間查詢與 Bus+ 6/6 吻合 |
+| 2026-10-28 | [ER 圖與 AI 交通工具調查](daily/2026-10-28-competitor-survey.md) |
+| 2026-10-29 | [SQL JOIN 與直達查詢](daily/2026-10-29-sql-join-direct-reach.md) |
+| 2026-10-30 | [雙北 AI 公車站長實測與直達查詢 API](daily/2026-10-30-bus-agent-test-and-api.md) |
 
 ## 實驗
 
@@ -27,8 +30,8 @@
 | Repository | 內容 | 狀態 |
 | --- | --- | --- |
 | dev-notes | 技術筆記、提案、設計文件、會議紀錄 | 本 repo |
-| backend | 後端 API 與資料匯入程式 | 尚未建立 |
-| frontend | 前端網頁 | 尚未建立 |
+| backend | 後端 API（FastAPI）、資料庫與資料匯入程式 | 私人，開發中 |
+| frontend | 前端網頁（Vue 3 + Vite + Leaflet） | 私人，已建立，尚未初始化 |
 
 ## 資料夾說明
 
