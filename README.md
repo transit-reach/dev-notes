@@ -19,6 +19,7 @@
 | 2026-10-29 | [SQL JOIN 與直達查詢](daily/2026-10-29-sql-join-direct-reach.md) |
 | 2026-10-30 | [雙北 AI 公車站長實測與直達查詢 API](daily/2026-10-30-bus-agent-test-and-api.md) |
 | 2026-11-01 | [前端地圖：點地圖顯示附近站牌與直達站](daily/2026-11-01-frontend-map.md) |
+| 2026-11-02 | [Docker 整合測試與自然語言查詢](daily/2026-11-02-docker-and-llm-query.md) |
 
 ## 實驗
 
