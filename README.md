@@ -20,6 +20,7 @@
 | 2026-10-30 | [雙北 AI 公車站長實測與直達查詢 API](daily/2026-10-30-bus-agent-test-and-api.md) |
 | 2026-11-01 | [前端地圖：點地圖顯示附近站牌與直達站](daily/2026-11-01-frontend-map.md) |
 | 2026-11-02 | [Docker 整合測試與自然語言查詢](daily/2026-11-02-docker-and-llm-query.md) |
+| 2026-11-03 | [捷運匯入、地標對應與查詢改進](daily/2026-11-03-metro-and-landmarks.md) |
 
 ## 實驗
 
@@ -34,6 +35,7 @@
 | dev-notes | 技術筆記、提案、設計文件、會議紀錄 | 本 repo |
 | backend | 後端 API（FastAPI）、資料庫與資料匯入程式 | 私人，開發中 |
 | frontend | 前端網頁（Vue 3 + Vite + Leaflet + OpenStreetMap） | 私人，開發中 |
+| deploy | 整合測試的 docker compose，填好 `.env` 後一行指令啟動 | 私人 |
 
 ## 資料夾說明
 
