@@ -85,6 +85,8 @@
 2. 用區網 IP（http）連進來，定位一律失敗，訊息卻是「沒有允許使用位置」，看起來像手機權限問題。
 3. 加到主畫面全螢幕後，底部有一條白底。
 
+<img src="../images/2026-11-04-acceptance-and-oneride/iphone-http-location-error.png" width="30%">
+
 **參考**：瀏覽器只在 HTTPS 或 localhost 提供定位（secure context），http 網頁的錯誤代碼和使用者按「不允許」相同。
 
 **行動**：
