@@ -1,0 +1,1 @@
+{"answer": "請問您要從哪裡出發呢？您可以這樣問：「從台北車站不換車能到士林夜市嗎？」", "origin": null, "reach": null, "tool_calls": [], "segments": [], "links": [], "view": null, "metrics": {"path": "llm", "gemini_calls": 1, "tokens": {"input": 1081, "output": 28, "total": 1109}, "ms": {"parse": 51, "llm": 16093, "total": 16166}, "outcome": "no_tool"}}

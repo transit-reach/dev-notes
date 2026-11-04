@@ -1,0 +1,698 @@
+[
+ {
+  "set": "dev",
+  "id": "Q1",
+  "q": "臺北市文山區興業里興隆路二段218號附近的公車站有哪些公車經過？",
+  "expect": {
+   "intent": "nearby",
+   "street": "興隆路二段218號",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "transport": "bus",
+   "intent": "nearby"
+  },
+  "ms": 927,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "Q2",
+  "q": "從興隆國小站搭673公車往大鵬新城方向，之後會經過哪些站?",
+  "expect": {
+   "intent": "route",
+   "place": "興隆國小站",
+   "route": "673",
+   "toward": "大鵬新城"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "興隆國小站",
+   "intent": "route",
+   "route": "673",
+   "toward": "大鵬新城"
+  },
+  "ms": 429,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "Q3",
+  "q": "從臺北市文山區興業里興隆路二段218號搭公車，不換車能到士林夜市嗎？",
+  "expect": {
+   "intent": "destination",
+   "street": "興隆路二段218號",
+   "destination": "士林夜市",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "transport": "bus",
+   "intent": "destination",
+   "destination": "士林夜市"
+  },
+  "ms": 796,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "Q4",
+  "q": "從臺北市文山區興業里興隆路二段218號不換車能搭到哪些地方？",
+  "expect": {
+   "intent": "overview",
+   "street": "興隆路二段218號"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "intent": "overview"
+  },
+  "ms": 811,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "Q5",
+  "q": "從萬芳醫院站搭捷運不換車能到哪些站？",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運萬芳醫院站"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "萬芳醫院站",
+   "transport": "metro",
+   "intent": "metro_only"
+  },
+  "ms": 371,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S1",
+  "q": "從興隆路二段218號搭公車，不換車能到銘傳大學嗎？",
+  "expect": {
+   "intent": "destination",
+   "street": "興隆路二段218號",
+   "destination": "銘傳大學",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "transport": "bus",
+   "intent": "destination",
+   "destination": "銘傳大學"
+  },
+  "ms": 1921,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S2",
+  "q": "興隆路二段218號附近 10 站以內能到哪裡",
+  "expect": {
+   "intent": "overview",
+   "street": "興隆路二段218號",
+   "max_stops": 10
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "max_stops": 10,
+   "intent": "overview"
+  },
+  "ms": 2945,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S3",
+  "q": "士林夜市附近 5 站以內能到哪裡",
+  "expect": {
+   "intent": "overview",
+   "place": "士林夜市",
+   "max_stops": 5
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "士林夜市",
+   "max_stops": 5,
+   "intent": "overview"
+  },
+  "ms": 422,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S4",
+  "q": "從台北101搭車不用轉車可以到士林夜市嗎？",
+  "expect": {
+   "intent": "destination",
+   "place": "台北101",
+   "destination": "士林夜市"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "台北101",
+   "intent": "destination",
+   "destination": "士林夜市"
+  },
+  "ms": 364,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S5",
+  "q": "興隆路二段218號附近，不換車能到哪些夜市？",
+  "expect": {
+   "intent": "category",
+   "street": "興隆路二段218號",
+   "category": "夜市"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "intent": "category",
+   "category": "夜市"
+  },
+  "ms": 1523,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S6",
+  "q": "我住在羅斯福路四段1號，不換車能到哪些醫院？",
+  "expect": {
+   "intent": "category",
+   "street": "羅斯福路四段1號",
+   "category": "醫院"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "羅斯福路四段1號",
+   "intent": "category",
+   "category": "醫院"
+  },
+  "ms": 1574,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S7",
+  "q": "我在捷運萬芳醫院站，只搭捷運能到哪裡？",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運萬芳醫院站"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "捷運萬芳醫院站",
+   "transport": "metro",
+   "intent": "metro_only"
+  },
+  "ms": 394,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S8",
+  "q": "從101搭公車不用轉車可以到松山機場嗎",
+  "expect": {
+   "intent": "destination",
+   "place": "台北101",
+   "destination": "松山機場",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "101",
+   "transport": "bus",
+   "intent": "destination",
+   "destination": "松山機場"
+  },
+  "ms": 358,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S9",
+  "q": "我在興隆路二段218號，可以直接搭車到興隆國小嗎？",
+  "expect": {
+   "intent": "destination",
+   "street": "興隆路二段218號",
+   "destination": "興隆國小"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "intent": "destination",
+   "destination": "興隆國小"
+  },
+  "ms": 2614,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "S10",
+  "q": "從桃園機場不換車能到哪裡？",
+  "expect": "out_of_range",
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "intent": "overview",
+   "place": "桃園機場"
+  },
+  "ms": 35579,
+  "calls": 1,
+  "tokens": 1102
+ },
+ {
+  "set": "dev",
+  "id": "E1",
+  "q": "今天天氣如何？",
+  "expect": null,
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": null,
+  "ms": 17628,
+  "calls": 1,
+  "tokens": 1132
+ },
+ {
+  "set": "dev",
+  "id": "E2",
+  "q": "不換車能到士林夜市嗎？",
+  "expect": null,
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": null,
+  "ms": 16166,
+  "calls": 1,
+  "tokens": 1109
+ },
+ {
+  "set": "dev",
+  "id": "E3",
+  "q": "從興隆路二段218號只搭捷運能到哪裡？",
+  "expect": {
+   "intent": "metro_only",
+   "street": "興隆路二段218號"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "transport": "metro",
+   "intent": "metro_only"
+  },
+  "ms": 873,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "E4",
+  "q": "台北101附近有哪些捷運站？",
+  "expect": {
+   "intent": "nearby",
+   "place": "台北101",
+   "transport": "metro"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "台北101",
+   "transport": "metro",
+   "intent": "nearby"
+  },
+  "ms": 285,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "E5",
+  "q": "從臺大醫院 10 站以內能到哪些夜市？",
+  "expect": {
+   "intent": "category",
+   "place": "臺大醫院",
+   "category": "夜市",
+   "max_stops": 10
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "臺大醫院",
+   "max_stops": 10,
+   "intent": "category",
+   "category": "夜市"
+  },
+  "ms": 321,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "E6",
+  "q": "從興隆路二段218號 10 站以內能到士林夜市嗎？",
+  "expect": {
+   "intent": "destination",
+   "street": "興隆路二段218號",
+   "destination": "士林夜市",
+   "max_stops": 10
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "興隆路二段218號",
+   "max_stops": 10,
+   "intent": "destination",
+   "destination": "士林夜市"
+  },
+  "ms": 771,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "dev",
+  "id": "E7",
+  "q": "從國立臺灣大學不換車能到哪裡？",
+  "expect": {
+   "intent": "overview",
+   "place": "國立臺灣大學"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "國立臺灣大學",
+   "intent": "overview"
+  },
+  "ms": 307,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H1",
+  "q": "我家在羅斯福路四段1號，附近有哪些站牌？",
+  "expect": {
+   "intent": "nearby",
+   "street": "羅斯福路四段1號"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "羅斯福路四段1號",
+   "intent": "nearby"
+  },
+  "ms": 1146,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H2",
+  "q": "101 附近的捷運站有哪些？",
+  "expect": {
+   "intent": "nearby",
+   "place": "台北101",
+   "transport": "metro"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "101",
+   "transport": "metro",
+   "intent": "nearby"
+  },
+  "ms": 318,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H3",
+  "q": "從信義路五段7號坐公車能到故宮嗎？",
+  "expect": {
+   "intent": "destination",
+   "street": "信義路五段7號",
+   "destination": "故宮",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "street": "信義路五段7號",
+   "transport": "bus",
+   "intent": "destination",
+   "destination": "故宮"
+  },
+  "ms": 1124,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H4",
+  "q": "在士林夜市搭捷運可以到哪裡？",
+  "expect": {
+   "intent": "metro_only",
+   "place": "士林夜市"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "士林夜市",
+   "transport": "metro",
+   "intent": "metro_only"
+  },
+  "ms": 351,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H5",
+  "q": "捷運公館站 8 站內能到哪些大學？",
+  "expect": {
+   "intent": "category",
+   "place": "捷運公館站",
+   "category": "大學",
+   "max_stops": 8
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "捷運公館站",
+   "max_stops": 8,
+   "intent": "category",
+   "category": "大學"
+  },
+  "ms": 317,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H6",
+  "q": "台北車站有哪些醫院可以直達？",
+  "expect": {
+   "intent": "category",
+   "place": "台北車站",
+   "category": "醫院"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "category": "醫院",
+   "place": "台北車站",
+   "intent": "category"
+  },
+  "ms": 34456,
+  "calls": 1,
+  "tokens": 1105
+ },
+ {
+  "set": "heldout",
+  "id": "H7",
+  "q": "興隆國小搭棕2往景美女中會經過哪些站？",
+  "expect": {
+   "intent": "route",
+   "place": "興隆國小站",
+   "route": "棕2",
+   "toward": "景美女中"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "興隆國小",
+   "intent": "route",
+   "route": "棕2",
+   "toward": "景美女中"
+  },
+  "ms": 344,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H8",
+  "q": "我在台大醫院，只坐公車能到哪？",
+  "expect": {
+   "intent": "overview",
+   "place": "臺大醫院",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "台大醫院",
+   "transport": "bus",
+   "intent": "overview"
+  },
+  "ms": 307,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H9",
+  "q": "從松山機場不轉車去得了動物園嗎？",
+  "expect": {
+   "intent": "destination",
+   "place": "松山機場",
+   "destination": "動物園"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "intent": "destination",
+   "destination": "動物園",
+   "place": "松山機場"
+  },
+  "ms": 14930,
+  "calls": 1,
+  "tokens": 1112
+ },
+ {
+  "set": "heldout",
+  "id": "H10",
+  "q": "景美夜市附近能直達哪些夜市？",
+  "expect": {
+   "intent": "category",
+   "place": "景美夜市",
+   "category": "夜市"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "景美夜市",
+   "intent": "category",
+   "category": "夜市"
+  },
+  "ms": 304,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H11",
+  "q": "從師大夜市出發能到銘傳大學嗎",
+  "expect": {
+   "intent": "destination",
+   "place": "師大夜市",
+   "destination": "銘傳大學"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "師大夜市",
+   "intent": "destination",
+   "destination": "銘傳大學"
+  },
+  "ms": 326,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "heldout",
+  "id": "H12",
+  "q": "新竹火車站能直達哪裡？",
+  "expect": "out_of_range",
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "新竹火車站",
+   "intent": "overview"
+  },
+  "ms": 20483,
+  "calls": 1,
+  "tokens": 1103
+ }
+]

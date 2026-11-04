@@ -1,0 +1,1 @@
+{"answer": "請問您想查詢大眾運輸嗎？您可以告訴我您的起點（例如地址、地標或捷運站），以及想去的地方或查詢需求，例如：「從台北車站不換車能到哪裡？」或是「松山車站附近有哪些公車站？」。", "origin": null, "reach": null, "tool_calls": [], "segments": [], "links": [], "view": null, "metrics": {"path": "llm", "gemini_calls": 1, "tokens": {"input": 1074, "output": 58, "total": 1132}, "ms": {"parse": 20, "llm": 17574, "total": 17628}, "outcome": "no_tool"}}

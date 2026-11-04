@@ -1,0 +1,39 @@
+===== C auto
+Q1   ✓ rule    0.9s 0 次      0 tok  
+Q2   ✓ rule    0.4s 0 次      0 tok  
+Q3   ✓ rule    0.8s 0 次      0 tok  
+Q4   ✓ rule    0.8s 0 次      0 tok  
+Q5   ✓ rule    0.4s 0 次      0 tok  
+S1   ✓ rule    1.9s 0 次      0 tok  
+S2   ✓ rule    2.9s 0 次      0 tok  
+S3   ✓ rule    0.4s 0 次      0 tok  
+S4   ✓ rule    0.4s 0 次      0 tok  
+S5   ✓ rule    1.5s 0 次      0 tok  
+S6   ✓ rule    1.6s 0 次      0 tok  
+S7   ✓ rule    0.4s 0 次      0 tok  
+S8   ✓ rule    0.4s 0 次      0 tok  
+S9   ✓ rule    2.6s 0 次      0 tok  
+S10  ✓ llm    35.6s 1 次   1102 tok  
+E1   ✓ llm    17.6s 1 次   1132 tok  
+E2   ✓ llm    16.2s 1 次   1109 tok  
+E3   ✓ rule    0.9s 0 次      0 tok  
+E4   ✓ rule    0.3s 0 次      0 tok  
+E5   ✓ rule    0.3s 0 次      0 tok  
+E6   ✓ rule    0.8s 0 次      0 tok  
+E7   ✓ rule    0.3s 0 次      0 tok  
+H1   ✓ rule    1.1s 0 次      0 tok  
+H2   ✓ rule    0.3s 0 次      0 tok  
+H3   ✓ rule    1.1s 0 次      0 tok  
+H4   ✓ rule    0.4s 0 次      0 tok  
+H5   ✓ rule    0.3s 0 次      0 tok  
+H6   ✓ llm    34.5s 1 次   1105 tok  
+H7   ✓ rule    0.3s 0 次      0 tok  
+H8   ✓ rule    0.3s 0 次      0 tok  
+H9   ✓ llm    14.9s 1 次   1112 tok  
+H10  ✓ rule    0.3s 0 次      0 tok  
+H11  ✓ rule    0.3s 0 次      0 tok  
+H12  ✓ llm    20.5s 1 次   1103 tok  
+
+全部：34 題，正確 34（100%），耗時中位數 0.8s、最大 35.6s，Gemini 6 次、token 合計 6663（每題平均 196），不用 LLM 28 題
+dev：22 題，正確 22（100%），耗時中位數 0.8s、最大 35.6s，Gemini 3 次、token 合計 3343（每題平均 152），不用 LLM 19 題
+heldout：12 題，正確 12（100%），耗時中位數 0.3s、最大 34.5s，Gemini 3 次、token 合計 3320（每題平均 277），不用 LLM 9 題
