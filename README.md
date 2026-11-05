@@ -4,6 +4,7 @@
 
 - 作者：賴冠廷
 - 專題提案：[proposal.md](proposal.md)
+- 系統架構（實作後的做法）：[design/architecture.md](design/architecture.md)；資料庫：[design/database.md](design/database.md)
 
 ## 每日技術筆記
 
@@ -21,12 +22,15 @@
 | 2026-11-01 | [前端地圖：點地圖顯示附近站牌與直達站](daily/2026-11-01-frontend-map.md) |
 | 2026-11-02 | [Docker 整合測試與自然語言查詢](daily/2026-11-02-docker-and-llm-query.md) |
 | 2026-11-03 | [捷運匯入、地標對應與驗收開始](daily/2026-11-03-metro-and-landmarks.md) |
+| 2026-11-04 | [驗收完成、OneRide 介面改版、System 1／System 2](daily/2026-11-04-acceptance-and-oneride.md) |
+| 2026-11-05 | [步行到地標、互動原則與統一版型、看不懂的問題由程式回答](daily/2026-11-05-unified-layout-and-guide-answers.md) |
 
 ## 實驗
 
 | 日期 | 實驗 |
 | --- | --- |
 | 2026-10-22 | [通用 AI 回答大眾運輸直達問題的侷限性與涵蓋率](experiments/llm-baseline.md) |
+| 2026-11-04 | [System 1（規則＋LLM 備援）34 題](experiments/system1-2026-11-04/C-log.txt) |
 
 ## 相關 Repository
 
@@ -44,7 +48,10 @@ dev-notes/
 ├── README.md       本頁，筆記索引
 ├── proposal.md     專題提案
 ├── daily/          每日技術筆記（YYYY-MM-DD-主題.md）
-├── design/         設計文件：資料庫結構、API 規格
+├── design/         設計文件：系統架構、資料庫結構
+├── acceptance/     驗收紀錄與測試回應
+├── experiments/    實驗
+├── report/         最終報告草稿（大綱、展示流程、AI 改動對照表、限制）
 ├── meetings/       會議紀錄
 └── images/         筆記中的截圖，依筆記檔名分資料夾
 ```

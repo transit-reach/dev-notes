@@ -1,0 +1,1 @@
+{"answer": "AI 服務目前忙碌，請稍後再試一次；也可以直接點地圖查詢該地點能直達的地方。", "origin": null, "reach": null, "tool_calls": [], "segments": [], "links": [], "view": null, "metrics": {"path": "llm", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 33, "llm": 18032, "total": 18081}, "outcome": "busy"}}

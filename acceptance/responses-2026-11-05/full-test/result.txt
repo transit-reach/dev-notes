@@ -1,0 +1,157 @@
+PASS 首頁 200
+PASS 標題 OneRide
+PASS index.html 有 rel="manifest"
+PASS index.html 有 rel="apple-touch-icon"
+PASS index.html 有 name="theme-color"
+PASS index.html 有 rel="icon"
+PASS manifest 類型  application/manifest+json
+PASS manifest 名稱
+PASS 圖示 /icon-192.png  200 image/png 11209 B
+PASS 圖示 /icon-512.png  200 image/png 31583 B
+PASS 圖示 /icon-maskable-512.png  200 image/png 19063 B
+PASS 圖示 /favicon.svg  200 image/svg+xml 625 B
+PASS apple-touch-icon
+PASS 不存在的網址回首頁（SPA）
+PASS preview.html 沒有打包進正式版
+PASS /reach 興隆路二段218號 下車站數  375（預期 375）
+PASS /reach 興隆路二段218號 上車站 ID 都對得上  873 筆路線，不符 0
+PASS /reach 興隆路二段218號 1 秒內  最慢 0.21 秒
+PASS /reach 台北101 下車站數  480（預期 480）
+PASS /reach 台北101 上車站 ID 都對得上  683 筆路線，不符 0
+PASS /reach 台北101 1 秒內  最慢 0.21 秒
+PASS /reach 羅斯福路四段1號 下車站數  798（預期 798）
+PASS /reach 羅斯福路四段1號 上車站 ID 都對得上  1848 筆路線，不符 0
+PASS /reach 羅斯福路四段1號 1 秒內  最慢 0.24 秒
+PASS /reach 經度範圍外 → 422  422
+PASS /reach 緯度範圍外 → 422  422
+PASS /reach 缺少 lat → 422  422
+PASS /reach radius 太小 → 422  422
+PASS /reach 附近沒有站牌的點  boarding 0
+PASS /suggest 台科 → 第一個是國立臺灣科技大學
+PASS /suggest 問句不給建議
+PASS /ask 空白問題 → 422  422
+PASS /ask 201 字 → 422  422
+FAIL /ask 分頁 百貨商場  18 個（預期 17）
+PASS /ask 分頁 電影院  7 個
+PASS /ask 分頁 夜市  8 個
+PASS /ask 能到哪 有百貨商場、電影院  夜市、大學、醫院、景點、百貨商場、電影院、交通
+PASS /ask 店家：台科大能到哪些咖啡廳？  查不到「咖啡廳」
+PASS /ask 店家：附近有便利商店嗎  查不到「便利商店」
+PASS /ask 標準 01 回 200  0.5 秒｜附近 300 m 有 11 個站牌
+PASS 標準 01：沒有殘留標記字元
+PASS 標準 01：segments 接起來等於 answer
+PASS 標準 01：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 02 回 200  0.3 秒｜673 往大鵬新城・12 站
+PASS 標準 02：沒有殘留標記字元
+PASS 標準 02：segments 接起來等於 answer
+PASS 標準 02：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 03 回 200  0.8 秒｜能直達士林夜市・最少 27 站（109）
+PASS 標準 03：沒有殘留標記字元
+PASS 標準 03：segments 接起來等於 answer
+PASS 標準 03：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 04 回 200  0.7 秒｜不換車能到 375 個站
+PASS 標準 04：沒有殘留標記字元
+PASS 標準 04：segments 接起來等於 answer
+PASS 標準 04：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 05 回 200  0.2 秒｜文湖線・2 個方向・共 23 站
+PASS 標準 05：沒有殘留標記字元
+PASS 標準 05：segments 接起來等於 answer
+PASS 標準 05：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 06 回 200  0.6 秒｜能直達銘傳大學・最少 27 站（109）
+PASS 標準 06：沒有殘留標記字元
+PASS 標準 06：segments 接起來等於 answer
+PASS 標準 06：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 07 回 200  0.7 秒｜不換車能到 120 個站
+PASS 標準 07：沒有殘留標記字元
+PASS 標準 07：segments 接起來等於 answer
+PASS 標準 07：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 08 回 200  0.3 秒｜不換車能到 87 個站
+PASS 標準 08：沒有殘留標記字元
+PASS 標準 08：segments 接起來等於 answer
+PASS 標準 08：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 09 回 200  0.2 秒｜能直達士林夜市・最少 12 站（淡水信義線）
+PASS 標準 09：沒有殘留標記字元
+PASS 標準 09：segments 接起來等於 answer
+PASS 標準 09：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 10 回 200  0.6 秒｜能到 8 個夜市・最近：景美夜市 6 站
+PASS 標準 10：沒有殘留標記字元
+PASS 標準 10：segments 接起來等於 answer
+PASS 標準 10：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 11 回 200  2.4 秒｜能到 8 個醫院・最近：臺北榮民總醫院 7 站
+PASS 標準 11：沒有殘留標記字元
+PASS 標準 11：segments 接起來等於 answer
+PASS 標準 11：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 12 回 200  0.2 秒｜文湖線・2 個方向・共 23 站
+PASS 標準 12：沒有殘留標記字元
+PASS 標準 12：segments 接起來等於 answer
+PASS 標準 12：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 13 回 200  0.2 秒｜不換車到不了松山機場
+PASS 標準 13：沒有殘留標記字元
+PASS 標準 13：segments 接起來等於 answer
+PASS 標準 13：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 14 回 200  0.5 秒｜興隆國小就在附近，走路就到
+PASS 標準 14：沒有殘留標記字元
+PASS 標準 14：segments 接起來等於 answer
+PASS 標準 14：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 15 回 200  2.7 秒｜「臺灣桃園國際機場（桃園市大園區）」不在台北市範圍內，無法查詢。
+PASS 標準 15：沒有殘留標記字元
+PASS 標準 15：segments 接起來等於 answer
+PASS /ask 標準 16 回 200  0.8 秒｜能到 8 個夜市・最近：景美夜市 6 站
+PASS 標準 16：沒有殘留標記字元
+PASS 標準 16：segments 接起來等於 answer
+PASS 標準 16：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 17 回 200  0.3 秒｜能直達士林夜市・最少 12 站（淡水信義線）
+PASS 標準 17：沒有殘留標記字元
+PASS 標準 17：segments 接起來等於 answer
+PASS 標準 17：清單、連結的站都在結果裡  不符 0
+PASS /ask 標準 18 回 200  0.2 秒｜文湖線・2 個方向・共 23 站
+PASS 標準 18：沒有殘留標記字元
+PASS 標準 18：segments 接起來等於 answer
+PASS 標準 18：清單、連結的站都在結果裡  不符 0
+FAIL /ask 邊界：和查詢無關  18.1 秒｜AI 服務目前忙碌，請稍後再試一次；也可以直接點地圖查詢該地點能直達的地方。
+PASS 邊界 和查詢無關：沒有殘留標記字元
+PASS /ask 邊界：沒說起點  0.0 秒｜從哪裡出發？ 請在問題裡寫出起點（地址或地標），或按定位鍵、長按地圖選起點。
+PASS 邊界 沒說起點：沒有殘留標記字元
+PASS 邊界 沒說起點：segments 接起來等於 answer
+PASS /ask 邊界：新類別：電影院  0.2 秒｜起點：國立臺灣科技大學 走路可到：百老匯影城（約 570 m）  不換車能到 5 個電影院（依站數排序）： - 信義威秀
+PASS 邊界 新類別：電影院：沒有殘留標記字元
+PASS 邊界 新類別：電影院：segments 接起來等於 answer
+PASS 邊界 新類別：電影院：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：新類別：百貨公司的說法  0.2 秒｜起點：台北101 走路可到：微風南山（約 190 m）、ATT 4 FUN（約 230 m）、遠東百貨信義A13（約 4
+PASS 邊界 新類別：百貨公司的說法：沒有殘留標記字元
+PASS 邊界 新類別：百貨公司的說法：segments 接起來等於 answer
+PASS 邊界 新類別：百貨公司的說法：清單、連結的站都在結果裡  不符 0
+FAIL /ask 邊界：找不到的地點  31.4 秒｜起點：星野銅鑼燒（臺北市大安區） 走路可到：遠東SOGO台北忠孝館（約 200 m）、遠東SOGO台北敦化館（約 520
+PASS 邊界 找不到的地點：沒有殘留標記字元
+PASS 邊界 找不到的地點：segments 接起來等於 answer
+PASS 邊界 找不到的地點：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：附近沒有捷運站卻只搭捷運  0.6 秒｜起點：臺北市文山區興隆路二段218號  起點附近 300 m 內沒有捷運站。
+PASS 邊界 附近沒有捷運站卻只搭捷運：沒有殘留標記字元
+PASS 邊界 附近沒有捷運站卻只搭捷運：segments 接起來等於 answer
+PASS 邊界 附近沒有捷運站卻只搭捷運：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：附近有哪些捷運站  0.2 秒｜起點：台北101  附近 300 m 內有 1 個捷運站： - 台北101/世貿 148m：淡水信義線
+PASS 邊界 附近有哪些捷運站：沒有殘留標記字元
+PASS 邊界 附近有哪些捷運站：segments 接起來等於 answer
+PASS 邊界 附近有哪些捷運站：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：不存在的路線  0.3 秒｜起點：興隆國小（公車站）  起點附近 300 m 內沒有 999 經過。
+PASS 邊界 不存在的路線：沒有殘留標記字元
+PASS 邊界 不存在的路線：segments 接起來等於 answer
+PASS 邊界 不存在的路線：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：類別＋站數條件  0.2 秒｜起點：國立臺灣大學醫學院附設醫院  不換車 10 站以內能到 5 個夜市（依站數排序）： - 師大夜市 3 站：仁愛林森
+PASS 邊界 類別＋站數條件：沒有殘留標記字元
+PASS 邊界 類別＋站數條件：segments 接起來等於 answer
+PASS 邊界 類別＋站數條件：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：站數條件下到不了  0.6 秒｜起點：臺北市文山區興隆路二段218號  不換車 10 站以內沒辦法到士林夜市。
+PASS 邊界 站數條件下到不了：沒有殘留標記字元
+PASS 邊界 站數條件下到不了：segments 接起來等於 answer
+PASS 邊界 站數條件下到不了：清單、連結的站都在結果裡  不符 0
+PASS /ask 邊界：大範圍地標（台大）  0.3 秒｜起點：國立臺灣大學 走路可到：公館夜市（約 410 m）、百老匯影城（約 740 m）  不換車能到 617 個站，以下
+PASS 邊界 大範圍地標（台大）：沒有殘留標記字元
+PASS 邊界 大範圍地標（台大）：segments 接起來等於 answer
+PASS 邊界 大範圍地標（台大）：清單、連結的站都在結果裡  不符 0
+
+/ask 29 題：中位數 0.3 秒、最大 31.4 秒、超過 10 秒 2 題
+合計 151 項檢查，失敗 3 項
+  FAIL /ask 分頁 百貨商場 18 個（預期 17）
+  FAIL /ask 邊界：和查詢無關 18.1 秒｜AI 服務目前忙碌，請稍後再試一次；也可以直接點地圖查詢該地點能直達的地方。
+  FAIL /ask 邊界：找不到的地點 31.4 秒｜起點：星野銅鑼燒（臺北市大安區） 走路可到：遠東SOGO台北忠孝館（約 200 m）、遠東SOGO台北敦化館（約 520
