@@ -23,7 +23,7 @@
 | 2026-11-02 | [Docker 整合測試與自然語言查詢](daily/2026-11-02-docker-and-llm-query.md) |
 | 2026-11-03 | [捷運匯入、地標對應與驗收開始](daily/2026-11-03-metro-and-landmarks.md) |
 | 2026-11-04 | [驗收完成、OneRide 介面改版、System 1／System 2](daily/2026-11-04-acceptance-and-oneride.md) |
-| 2026-11-05 | [步行到地標、互動原則與統一版型、看不懂的問題由程式回答](daily/2026-11-05-unified-layout-and-guide-answers.md) |
+| 2026-11-05 | [步行到地標、互動原則與統一版型、百貨商場與電影院、部署演練與報告準備](daily/2026-11-05-unified-layout-and-guide-answers.md) |
 
 ## 實驗
 
