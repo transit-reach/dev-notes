@@ -87,6 +87,8 @@ flowchart LR
 
 ## 三、LLM 的角色
 
+> 為什麼這樣設計、和其他做法（Agent、LLM 產生 SQL…）的比較與取捨，見 [llm-design.md](llm-design.md)。
+
 | | 提案時 | 現在 |
 | --- | --- | --- |
 | 解析問題 | LLM | 規則先試，看不懂才給 LLM |

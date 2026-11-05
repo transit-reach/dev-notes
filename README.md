@@ -4,7 +4,7 @@
 
 - 作者：賴冠廷
 - 專題提案：[proposal.md](proposal.md)
-- 系統架構（實作後的做法）：[design/architecture.md](design/architecture.md)；資料庫：[design/database.md](design/database.md)
+- 系統架構（實作後的做法）：[design/architecture.md](design/architecture.md)；LLM 的角色與取捨：[design/llm-design.md](design/llm-design.md)；資料庫：[design/database.md](design/database.md)
 
 ## 每日技術筆記
 
