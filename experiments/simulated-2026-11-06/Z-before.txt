@@ -1,0 +1,79 @@
+{"event": "ask", "question": "台大公館搭公車不用轉車可以到哪些地方啊？", "args": {"transport": "bus", "place": "台大公館", "intent": "overview"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 29, "total": 1448}, "ms": {"parse": 65, "llm": 1176, "locate": 634, "total": 1991}, "outcome": "out_of_range"}
+Z1   ✗ llm     2.0s 1 次   1448 tok  起點沒有定位
+{"event": "ask", "question": "從北車出發，捷運直達可以去哪些景點？各幾站", "args": {"place": "北車", "category": "景點", "intent": "category"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 37, "locate": 32, "query": 285, "total": 355}, "outcome": "answered"}
+Z2   ✗ rule    0.4s 0 次      0 tok  transport None≠metro
+{"event": "ask", "question": "松山車站有沒有公車可以直接到西門町，不想轉車QQ", "args": {"place": "松山車站", "destination": "西門町", "transport": "bus", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 36, "total": 1455}, "ms": {"parse": 60, "llm": 877, "locate": 36, "query": 249, "total": 1242}, "outcome": "answered"}
+Z3   ✓ llm     1.2s 1 次   1455 tok  
+{"event": "ask", "question": "我住天母，要去台北市區有哪些地方搭公車一班就到？", "args": {"destination": "台北市區", "place": "天母", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1422, "output": 29, "total": 1451}, "ms": {"parse": 64, "llm": 807, "locate": 37, "query": 222, "total": 1158}, "outcome": "answered"}
+Z4   ✗ llm     1.2s 1 次   1451 tok  intent destination≠overview；transport None≠bus；destination 台北市區≠None
+{"event": "ask", "question": "從師大夜市搭公車可以直達哪幾間大醫院？", "args": {"place": "師大夜市", "transport": "bus", "intent": "overview"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 37, "locate": 36, "query": 240, "total": 313}, "outcome": "answered"}
+Z5   ✗ rule    0.3s 0 次      0 tok  intent overview≠category；category None≠醫院
+{"event": "ask", "question": "南京復興出發，捷運不換線能到哪些站？列一下", "args": {"place": "南京復興", "intent": "overview"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 37, "locate": 38, "query": 230, "total": 305}, "outcome": "answered"}
+Z6   ✗ rule    0.3s 0 次      0 tok  intent overview≠metro_only；transport None≠metro
+{"event": "ask", "question": "中山站坐捷運可以直接到101嗎？幾站", "args": {"place": "中山站", "transport": "metro", "destination": "101", "intent": "destination"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 35, "locate": 34, "query": 249, "total": 318}, "outcome": "answered"}
+Z7   ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "想從陽明山搭公車直接到士林夜市，有哪些車可以搭？", "args": {"place": "陽明山", "destination": "士林夜市", "transport": "bus", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1423, "output": 37, "total": 1460}, "ms": {"parse": 61, "llm": 1023, "locate": 63, "query": 224, "total": 1391}, "outcome": "answered"}
+Z8   ✓ llm     1.4s 1 次   1460 tok  
+{"event": "ask", "question": "景美捷運站附近有什麼公車可以直達台北車站的？", "args": {"destination": "台北車站", "transport": "bus", "place": "捷運景美站", "intent": "destination"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2894, "output": 74, "total": 2968}, "ms": {"parse": 61, "llm": 2165, "locate": 36, "query": 221, "total": 2503}, "outcome": "answered"}
+Z9   ✓ llm     2.5s 2 次   2968 tok  
+{"event": "ask", "question": "從內湖科學園區到市政府，不換車的公車有哪些？", "args": {"place": "內湖科學園區", "transport": "bus", "destination": "市政府", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1420, "output": 36, "total": 1456}, "ms": {"parse": 60, "llm": 1069, "locate": 1675, "query": 222, "total": 3043}, "outcome": "answered"}
+Z10  ✗ llm     3.0s 1 次   1456 tok  起點差 6957 m
+{"event": "ask", "question": "我阿嬤要從萬芳醫院去榮總，公車有直達的嗎？不要轉車", "args": {"place": "萬芳醫院", "destination": "榮總", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1426, "output": 29, "total": 1455}, "ms": {"parse": 60, "llm": 871, "locate": 34, "query": 221, "total": 1204}, "outcome": "answered"}
+Z11  ✗ llm     1.2s 1 次   1455 tok  transport None≠bus
+{"event": "ask", "question": "從北投捷運站出發，搭捷運不用換車可以去哪幾個地方？", "args": {"place": "捷運北投站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1424, "output": 30, "total": 1454}, "ms": {"parse": 59, "llm": 982, "locate": 35, "query": 224, "total": 1319}, "outcome": "answered"}
+Z12  ✓ llm     1.3s 1 次   1454 tok  
+{"event": "ask", "question": "信義威秀到饒河夜市有沒有一班公車直達？坐幾站", "args": {"place": "信義威秀", "destination": "饒河夜市", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1423, "output": 32, "total": 1455}, "ms": {"parse": 60, "llm": 1034, "locate": 36, "query": 232, "total": 1381}, "outcome": "answered"}
+Z13  ✗ llm     1.4s 1 次   1455 tok  transport None≠bus
+{"event": "ask", "question": "南港展覽館搭捷運可以直達淡水嗎？要幾站", "args": {"place": "南港展覽館", "transport": "metro", "destination": "淡水", "intent": "destination"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 35, "locate": 33, "query": 227, "total": 295}, "outcome": "answered"}
+Z14  ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "我在東吳大學城中校區，想搭公車直達龍山寺附近", "args": {"destination": "龍山寺", "place": "東吳大學城中校區", "transport": "bus", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1422, "output": 40, "total": 1462}, "ms": {"parse": 62, "llm": 867, "locate": 62, "query": 241, "total": 1251}, "outcome": "answered"}
+Z15  ✓ llm     1.3s 1 次   1462 tok  
+{"event": "ask", "question": "從永春站出發，有哪些捷運站可以不用轉車到？", "args": {"place": "捷運永春站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1420, "output": 26, "total": 1446}, "ms": {"parse": 38, "llm": 1285, "locate": 35, "query": 224, "total": 1601}, "outcome": "answered"}
+Z16  ✓ llm     1.6s 1 次   1446 tok  
+{"event": "ask", "question": "台北小巨蛋看完演唱會，要去公館，有沒有直達公車？", "args": {"transport": "bus", "destination": "公館", "place": "台北小巨蛋", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 36, "total": 1457}, "ms": {"parse": 65, "llm": 1077, "locate": 38, "query": 225, "total": 1424}, "outcome": "answered"}
+Z17  ✓ llm     1.4s 1 次   1457 tok  
+{"event": "ask", "question": "西門町到故宮博物院，有沒有不用換車的公車路線？", "args": {"transport": "bus", "destination": "故宮博物院", "place": "西門町", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 37, "total": 1458}, "ms": {"parse": 63, "llm": 1219, "locate": 35, "query": 292, "total": 1628}, "outcome": "answered"}
+Z18  ✓ llm     1.6s 1 次   1458 tok  
+{"event": "ask", "question": "從台北市立大學天母校區出發，公車一班能到哪些捷運站？", "args": {"transport": "bus", "destination": "捷運站", "place": "台北市立大學天母校區", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1425, "output": 40, "total": 1465}, "ms": {"parse": 66, "llm": 1360, "locate": 906, "query": 210, "total": 2560}, "outcome": "answered"}
+Z19  ✗ llm     2.6s 1 次   1465 tok  intent destination≠overview；destination 捷運站≠None
+{"event": "ask", "question": "我剛搬來台北，從民生社區出發可以搭哪些公車直達台北車站？", "args": {"transport": "bus", "destination": "台北車站", "place": "民生社區", "intent": "destination"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2902, "output": 70, "total": 2972}, "ms": {"parse": 59, "llm": 2120, "locate": 389, "query": 230, "total": 2817}, "outcome": "answered"}
+Z20  ✓ llm     2.8s 2 次   2972 tok  
+{"event": "ask", "question": "從忠孝敦化搭捷運不轉車能到象山嗎？幾站呀", "args": {"place": "忠孝敦化", "transport": "metro", "destination": "象山", "intent": "destination"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 35, "locate": 34, "query": 242, "total": 311}, "outcome": "answered"}
+Z21  ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "急！從台北市政府到松山機場，有沒有不用轉車的公車，哪條最快", "args": {"destination": "松山機場", "transport": "bus", "place": "台北市政府", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1425, "output": 35, "total": 1460}, "ms": {"parse": 59, "llm": 990, "locate": 828, "query": 201, "total": 2096}, "outcome": "answered"}
+Z22  ✗ llm     2.1s 1 次   1460 tok  起點差 5903 m
+{"event": "ask", "question": "從和平醫院出發，公車直達的捷運站有哪些？", "args": {"place": "和平醫院", "transport": "bus", "intent": "overview"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 27, "total": 1446}, "ms": {"parse": 59, "llm": 1049, "locate": 576, "total": 1704}, "outcome": "out_of_range"}
+Z23  ✗ llm     1.7s 1 次   1446 tok  起點沒有定位
+{"event": "ask", "question": "從圓山花博到大安森林公園，有沒有一班公車可以到？", "args": {"destination": "大安森林公園", "place": "圓山花博", "intent": "destination"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2893, "output": 64, "total": 2957}, "ms": {"parse": 61, "llm": 1955, "locate": 614, "total": 2651}, "outcome": "out_of_range"}
+Z24  ✗ llm     2.7s 2 次   2957 tok  transport None≠bus；起點沒有定位
+{"event": "ask", "question": "從師大附中到台北車站，捷運或公車有直達的嗎？分別幾站", "args": {"place": "師大附中", "destination": "台北車站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1426, "output": 30, "total": 1456}, "ms": {"parse": 60, "llm": 969, "locate": 66, "query": 213, "total": 1328}, "outcome": "answered"}
+Z25  ✓ llm     1.3s 1 次   1456 tok  
+{"event": "ask", "question": "幫我規劃從北投到木柵動物園，搭捷運怎麼轉車最快？", "args": {"place": "北投", "destination": "木柵動物園", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1424, "output": 30, "total": 1454}, "ms": {"parse": 60, "llm": 715, "locate": 36, "query": 241, "total": 1070}, "outcome": "answered"}
+Z26  ✗ llm     1.1s 1 次   1454 tok  transport None≠metro
+{"event": "ask", "question": "現在從台大醫院到松山車站，公車還要等多久才來？", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 26, "total": 1447}, "ms": {"parse": 61, "llm": 1872, "total": 1953}, "outcome": "no_data"}
+Z27  ✓ llm     2.0s 1 次   1447 tok  
+{"event": "ask", "question": "台北到桃園機場有什麼公車可以搭？多久會到", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1417, "output": 25, "total": 1442}, "ms": {"parse": 61, "llm": 946, "total": 1026}, "outcome": "no_data"}
+Z28  ✗ llm     1.0s 1 次   1442 tok  結果是 no_data
+{"event": "ask", "question": "從台北101附近推薦一家好吃的拉麵，走路10分鐘內", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 24, "total": 1445}, "ms": {"parse": 42, "llm": 1558, "total": 1621}, "outcome": "no_data"}
+Z29  ✓ llm     1.6s 1 次   1445 tok  
+{"event": "ask", "question": "幫我查一下明天台中火車站到逢甲夜市怎麼搭車", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 15, "total": 1434}, "ms": {"parse": 63, "llm": 634, "total": 725}, "outcome": "unrelated"}
+Z30  ✗ llm     0.7s 1 次   1434 tok  結果是 unrelated
+
+全部：30 題，正確 15（50%），耗時中位數 1.4s、最大 3.0s，Gemini 27 次、token 合計 39403（每題平均 1313），不用 LLM 6 題，Gemini 5xx 整題重跑 0 次
+simulated_new：30 題，正確 15（50%），耗時中位數 1.4s、最大 3.0s，Gemini 27 次、token 合計 39403（每題平均 1313），不用 LLM 6 題，Gemini 5xx 整題重跑 0 次
+  ✗ Z1 台大公館搭公車不用轉車可以到哪些地方啊？：起點沒有定位  {'transport': 'bus', 'place': '台大公館', 'intent': 'overview'}
+  ✗ Z2 從北車出發，捷運直達可以去哪些景點？各幾站：transport None≠metro  {'place': '北車', 'intent': 'category', 'category': '景點'}
+  ✗ Z4 我住天母，要去台北市區有哪些地方搭公車一班就到？：intent destination≠overview；transport None≠bus；destination 台北市區≠None  {'intent': 'destination', 'destination': '台北市區', 'place': '天母'}
+  ✗ Z5 從師大夜市搭公車可以直達哪幾間大醫院？：intent overview≠category；category None≠醫院  {'place': '師大夜市', 'transport': 'bus', 'intent': 'overview'}
+  ✗ Z6 南京復興出發，捷運不換線能到哪些站？列一下：intent overview≠metro_only；transport None≠metro  {'place': '南京復興', 'intent': 'overview'}
+  ✗ Z10 從內湖科學園區到市政府，不換車的公車有哪些？：起點差 6957 m  {'intent': 'destination', 'place': '內湖科學園區', 'transport': 'bus', 'destination': '市政府'}
+  ✗ Z11 我阿嬤要從萬芳醫院去榮總，公車有直達的嗎？不要轉車：transport None≠bus  {'intent': 'destination', 'place': '萬芳醫院', 'destination': '榮總'}
+  ✗ Z13 信義威秀到饒河夜市有沒有一班公車直達？坐幾站：transport None≠bus  {'place': '信義威秀', 'intent': 'destination', 'destination': '饒河夜市'}
+  ✗ Z19 從台北市立大學天母校區出發，公車一班能到哪些捷運站？：intent destination≠overview；destination 捷運站≠None  {'transport': 'bus', 'intent': 'destination', 'destination': '捷運站', 'place': '台北市立大學天母校區'}
+  ✗ Z22 急！從台北市政府到松山機場，有沒有不用轉車的公車，哪條最快：起點差 5903 m  {'destination': '松山機場', 'transport': 'bus', 'place': '台北市政府', 'intent': 'destination'}
+  ✗ Z23 從和平醫院出發，公車直達的捷運站有哪些？：起點沒有定位  {'place': '和平醫院', 'intent': 'overview', 'transport': 'bus'}
+  ✗ Z24 從圓山花博到大安森林公園，有沒有一班公車可以到？：transport None≠bus；起點沒有定位  {'destination': '大安森林公園', 'intent': 'destination', 'place': '圓山花博'}
+  ✗ Z26 幫我規劃從北投到木柵動物園，搭捷運怎麼轉車最快？：transport None≠metro  {'intent': 'destination', 'place': '北投', 'destination': '木柵動物園'}
+  ✗ Z28 台北到桃園機場有什麼公車可以搭？多久會到：結果是 no_data  {'reason': 'no_data', 'topic': '機場公車時間'}
+  ✗ Z30 幫我查一下明天台中火車站到逢甲夜市怎麼搭車：結果是 unrelated  {'reason': 'unrelated'}
+exit 0

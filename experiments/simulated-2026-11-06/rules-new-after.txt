@@ -1,0 +1,4 @@
+
+全部：30 題，規則接手 4 題（13%），其中正確 3，答錯 1
+simulated_new：30 題，規則接手 4 題（13%），其中正確 3，答錯 1
+  ✗ Z2 從北車出發，捷運直達可以去哪些景點？各幾站：transport None≠metro  {'place': '北車', 'intent': 'category', 'category': '景點'}

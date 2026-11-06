@@ -1,0 +1,6 @@
+
+全部：30 題，規則接手 6 題（20%），其中正確 3，答錯 3
+simulated_new：30 題，規則接手 6 題（20%），其中正確 3，答錯 3
+  ✗ Z2 從北車出發，捷運直達可以去哪些景點？各幾站：transport None≠metro  {'place': '北車', 'intent': 'category', 'category': '景點'}
+  ✗ Z5 從師大夜市搭公車可以直達哪幾間大醫院？：intent overview≠category；category None≠醫院  {'place': '師大夜市', 'transport': 'bus', 'intent': 'overview'}
+  ✗ Z6 南京復興出發，捷運不換線能到哪些站？列一下：intent overview≠metro_only；transport None≠metro  {'place': '南京復興', 'intent': 'overview'}
