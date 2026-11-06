@@ -1,0 +1,610 @@
+[
+ {
+  "set": "simulated",
+  "id": "X1",
+  "q": "台北車站不用轉車可以直接到哪些夜市啊？",
+  "expect": {
+   "intent": "category",
+   "place": "台北車站",
+   "category": "夜市"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "台北車站",
+   "intent": "category",
+   "category": "夜市"
+  },
+  "ms": 572,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X2",
+  "q": "從師大要去可以不用換車到的地方有哪些？想晃晃",
+  "expect": {
+   "intent": "overview",
+   "place": "國立臺灣師範大學"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "師大",
+   "intent": "overview",
+   "destination": "可以不用換車到的地方"
+  },
+  "ms": 1750,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X3",
+  "q": "松山車站搭公車直達的景點有啥",
+  "expect": {
+   "intent": "category",
+   "place": "松山車站",
+   "category": "景點",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": false,
+  "why": "category 景類≠景點",
+  "args": {
+   "place": "松山車站",
+   "category": "景類",
+   "transport": "bus",
+   "intent": "category"
+  },
+  "ms": 1569,
+  "calls": 1,
+  "tokens": 1451
+ },
+ {
+  "set": "simulated",
+  "id": "X4",
+  "q": "我住北投，想知道捷運不轉車可以到哪幾站附近",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運北投站"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "北投",
+   "intent": "metro_only"
+  },
+  "ms": 1362,
+  "calls": 1,
+  "tokens": 1444
+ },
+ {
+  "set": "simulated",
+  "id": "X5",
+  "q": "從台大正門出發，有沒有公車可以直達西門町？",
+  "expect": {
+   "intent": "destination",
+   "place": "國立臺灣大學",
+   "destination": "西門町",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": false,
+  "why": "transport None≠bus",
+  "args": {
+   "intent": "destination",
+   "place": "台大正門",
+   "destination": "西門町"
+  },
+  "ms": 2851,
+  "calls": 1,
+  "tokens": 1452
+ },
+ {
+  "set": "simulated",
+  "id": "X6",
+  "q": "忠孝復興到不用轉車能到的百貨公司有哪些",
+  "expect": {
+   "intent": "category",
+   "place": "捷運忠孝復興站",
+   "category": "百貨商場"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "捷運忠孝復興站",
+   "intent": "category",
+   "category": "百貨商場"
+  },
+  "ms": 2586,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X7",
+  "q": "信義區市政府站可以直接搭捷運去哪裡吃東西",
+  "expect": null,
+  "path": "llm",
+  "ok": false,
+  "why": "不該查詢",
+  "args": {
+   "transport": "metro",
+   "place": "捷運市政府站",
+   "intent": "category"
+  },
+  "ms": 2402,
+  "calls": 1,
+  "tokens": 1446
+ },
+ {
+  "set": "simulated",
+  "id": "X8",
+  "q": "我媽住萬芳醫院，想知道搭公車不換車能到哪些醫院",
+  "expect": {
+   "intent": "category",
+   "place": "萬芳醫院",
+   "category": "醫院",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "intent": "category",
+   "category": "醫院",
+   "transport": "bus",
+   "place": "萬芳醫院"
+  },
+  "ms": 1126,
+  "calls": 1,
+  "tokens": 1456
+ },
+ {
+  "set": "simulated",
+  "id": "X9",
+  "q": "從南港展覽館出發，不轉車可以到哪些觀光景點？",
+  "expect": {
+   "intent": "category",
+   "place": "捷運南港展覽館站",
+   "category": "景點"
+  },
+  "path": "rule",
+  "ok": false,
+  "why": "intent overview≠category；category None≠景點",
+  "args": {
+   "place": "南港展覽館",
+   "intent": "overview"
+  },
+  "ms": 306,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X10",
+  "q": "中山站搭捷運直達的站有哪些？幫我列一下",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運中山站"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "destination": "中山站",
+   "place": "捷運中山站",
+   "intent": "metro_only"
+  },
+  "ms": 1574,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X11",
+  "q": "景美夜市附近有沒有公車可以直接到公館的",
+  "expect": {
+   "intent": "destination",
+   "place": "景美夜市",
+   "destination": "公館",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": false,
+  "why": "transport None≠bus",
+  "args": {
+   "destination": "公館",
+   "intent": "destination",
+   "place": "景美夜市"
+  },
+  "ms": 1522,
+  "calls": 1,
+  "tokens": 1446
+ },
+ {
+  "set": "simulated",
+  "id": "X12",
+  "q": "民生社區這邊搭公車能不轉車到台北車站嗎",
+  "expect": {
+   "intent": "destination",
+   "place": "民生社區",
+   "destination": "台北車站",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "destination": "台北車站",
+   "intent": "destination",
+   "transport": "bus",
+   "place": "民生社區"
+  },
+  "ms": 2463,
+  "calls": 2,
+  "tokens": 2959
+ },
+ {
+  "set": "simulated",
+  "id": "X13",
+  "q": "我在輔大附近，要去台北市區有沒有直達的捷運或公車",
+  "expect": "out_of_range",
+  "path": "llm",
+  "ok": false,
+  "why": "結果是 answered",
+  "args": {
+   "destination": "台北市區",
+   "intent": "destination",
+   "place": "輔大"
+  },
+  "ms": 1699,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X14",
+  "q": "從大安森林公園站可以不換線到哪些地方？",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運大安森林公園站"
+  },
+  "path": "rule",
+  "ok": false,
+  "why": "intent overview≠metro_only；transport None≠metro",
+  "args": {
+   "place": "大安森林公園站",
+   "intent": "overview"
+  },
+  "ms": 292,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X15",
+  "q": "明天要去故宮，從圓山站有沒有公車一班到底的",
+  "expect": {
+   "intent": "destination",
+   "place": "捷運圓山站",
+   "destination": "故宮",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": false,
+  "why": "transport None≠bus",
+  "args": {
+   "intent": "destination",
+   "destination": "故宮",
+   "place": "捷運圓山站"
+  },
+  "ms": 1662,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X16",
+  "q": "內湖科學園區下班，想搭公車直接到南京復興附近",
+  "expect": {
+   "intent": "destination",
+   "place": "內湖科技園區",
+   "destination": "南京復興",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": false,
+  "why": "起點沒有定位",
+  "args": {
+   "transport": "bus",
+   "intent": "destination",
+   "place": "內湖科學園區",
+   "destination": "南京復興"
+  },
+  "ms": 1548,
+  "calls": 1,
+  "tokens": 1459
+ },
+ {
+  "set": "simulated",
+  "id": "X17",
+  "q": "從龍山寺站出發，不用轉車能到哪些親子景點？",
+  "expect": {
+   "intent": "category",
+   "place": "捷運龍山寺站",
+   "category": "景點"
+  },
+  "path": "rule",
+  "ok": false,
+  "why": "intent overview≠category；category None≠景點",
+  "args": {
+   "place": "龍山寺站",
+   "intent": "overview"
+  },
+  "ms": 329,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X18",
+  "q": "我剛搬來台北，從永春站搭捷運不轉車可以去哪裡啊？",
+  "expect": {
+   "intent": "metro_only",
+   "place": "捷運永春站"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "捷運永春站",
+   "intent": "metro_only"
+  },
+  "ms": 2438,
+  "calls": 2,
+  "tokens": 2969
+ },
+ {
+  "set": "simulated",
+  "id": "X19",
+  "q": "北車到台北小巨蛋有直達的公車嗎？不想走太多路",
+  "expect": {
+   "intent": "destination",
+   "place": "台北車站",
+   "destination": "小巨蛋",
+   "transport": "bus"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "intent": "destination",
+   "destination": "台北小巨蛋",
+   "transport": "bus",
+   "place": "台北車站"
+  },
+  "ms": 1349,
+  "calls": 1,
+  "tokens": 1458
+ },
+ {
+  "set": "simulated",
+  "id": "X20",
+  "q": "從台北市立動物園搭公車可以直達哪些地方？帶小孩",
+  "expect": {
+   "intent": "overview",
+   "place": "臺北市立動物園",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "台北市立動物園",
+   "transport": "bus",
+   "intent": "overview"
+  },
+  "ms": 324,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X21",
+  "q": "我在榮總，搭公車不用轉車能到石牌站嗎",
+  "expect": {
+   "intent": "destination",
+   "place": "臺北榮民總醫院",
+   "destination": "石牌",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "榮總",
+   "transport": "bus",
+   "intent": "destination",
+   "destination": "石牌站"
+  },
+  "ms": 324,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X22",
+  "q": "古亭站可以直接搭捷運到哪些大學附近？",
+  "expect": {
+   "intent": "category",
+   "place": "捷運古亭站",
+   "category": "大學",
+   "transport": "metro"
+  },
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "place": "古亭站",
+   "transport": "metro",
+   "intent": "category",
+   "category": "大學"
+  },
+  "ms": 414,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X23",
+  "q": "西門町附近有沒有公車可以直達迪化街？",
+  "expect": {
+   "intent": "destination",
+   "place": "西門町",
+   "destination": "迪化街",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": false,
+  "why": "transport None≠bus",
+  "args": {
+   "place": "西門町",
+   "intent": "destination",
+   "destination": "迪化街"
+  },
+  "ms": 534,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X24",
+  "q": "從台北101搭捷運不換車能到哪些溫泉區？",
+  "expect": null,
+  "path": "rule",
+  "ok": false,
+  "why": "不該查詢",
+  "args": {
+   "place": "台北101",
+   "transport": "metro",
+   "intent": "metro_only"
+  },
+  "ms": 300,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X25",
+  "q": "我在台北醫學大學，附近有哪些公車路線可以直達捷運站？",
+  "expect": {
+   "intent": "nearby",
+   "place": "臺北醫學大學",
+   "transport": "bus"
+  },
+  "path": "rule",
+  "ok": false,
+  "why": "transport metro≠bus",
+  "args": {
+   "place": "台北醫學大學",
+   "transport": "metro",
+   "intent": "nearby"
+  },
+  "ms": 270,
+  "calls": 0,
+  "tokens": 0
+ },
+ {
+  "set": "simulated",
+  "id": "X26",
+  "q": "從淡水到台北101怎麼搭最快？可以接受轉車",
+  "expect": "out_of_range",
+  "path": "llm",
+  "ok": false,
+  "why": "結果是 answered",
+  "args": {
+   "intent": "destination",
+   "destination": "台北101",
+   "place": "淡水"
+  },
+  "ms": 1376,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X27",
+  "q": "幫我查一下現在公車 307 還要等幾分鐘到重慶南路",
+  "expect": null,
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "topic": "公車到站時間",
+   "reason": "no_data"
+  },
+  "ms": 1104,
+  "calls": 1,
+  "tokens": 1450
+ },
+ {
+  "set": "simulated",
+  "id": "X28",
+  "q": "台北車站到九份有沒有不用換車的交通方式？",
+  "expect": {
+   "intent": "destination",
+   "place": "台北車站",
+   "destination": "九份"
+  },
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "intent": "destination",
+   "place": "台北車站",
+   "destination": "九份"
+  },
+  "ms": 1513,
+  "calls": 1,
+  "tokens": 1444
+ },
+ {
+  "set": "simulated",
+  "id": "X29",
+  "q": "我人在桃園機場，怎麼搭車到北投？",
+  "expect": "out_of_range",
+  "path": "llm",
+  "ok": true,
+  "why": "",
+  "args": {
+   "destination": "北投",
+   "place": "桃園機場",
+   "intent": "destination"
+  },
+  "ms": 2770,
+  "calls": 1,
+  "tokens": 1443
+ },
+ {
+  "set": "simulated",
+  "id": "X30",
+  "q": "從中正紀念堂到信義區哪間餐廳最好吃？",
+  "expect": null,
+  "path": "rule",
+  "ok": true,
+  "why": "",
+  "args": {
+   "reason": "no_data",
+   "topic": "餐廳"
+  },
+  "ms": 47,
+  "calls": 0,
+  "tokens": 0
+ }
+]

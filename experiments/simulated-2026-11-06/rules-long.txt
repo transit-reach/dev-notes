@@ -1,0 +1,9 @@
+
+全部：30 題，規則接手 10 題（33%），其中正確 4，答錯 6
+simulated：30 題，規則接手 10 題（33%），其中正確 4，答錯 6
+  ✗ X9 從南港展覽館出發，不轉車可以到哪些觀光景點？：intent overview≠category；category None≠景點  {'place': '南港展覽館', 'intent': 'overview'}
+  ✗ X14 從大安森林公園站可以不換線到哪些地方？：intent overview≠metro_only；transport None≠metro  {'place': '大安森林公園站', 'intent': 'overview'}
+  ✗ X17 從龍山寺站出發，不用轉車能到哪些親子景點？：intent overview≠category；category None≠景點  {'place': '龍山寺站', 'intent': 'overview'}
+  ✗ X23 西門町附近有沒有公車可以直達迪化街？：transport None≠bus  {'place': '西門町', 'intent': 'destination', 'destination': '迪化街'}
+  ✗ X24 從台北101搭捷運不換車能到哪些溫泉區？：不該查詢  {'place': '台北101', 'transport': 'metro', 'intent': 'metro_only'}
+  ✗ X25 我在台北醫學大學，附近有哪些公車路線可以直達捷運站？：transport metro≠bus  {'place': '台北醫學大學', 'transport': 'metro', 'intent': 'nearby'}

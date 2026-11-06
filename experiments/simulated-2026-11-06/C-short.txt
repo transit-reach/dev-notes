@@ -1,0 +1,37 @@
+Y1   ✓ llm     2.3s 1 次   1441 tok  
+Y2   ✓ llm     1.4s 1 次   1445 tok  
+Y3   ✓ rule    0.3s 0 次      0 tok  
+Y4   ✓ llm     1.3s 1 次   1439 tok  
+Y5   ✓ llm     2.5s 2 次   2933 tok  
+Y6   ✓ llm     1.7s 1 次   1445 tok  
+Y7   ✓ llm     1.7s 1 次   1438 tok  
+Y8   ✗ llm     1.5s 1 次   1438 tok  transport None≠bus
+Y9   ✓ llm     1.5s 1 次   1442 tok  
+Y10  ✓ llm     1.3s 1 次   1440 tok  
+Y11  ✓ llm     1.8s 1 次   1438 tok  
+Y12  ✓ llm     1.5s 1 次   1441 tok  
+Y13  ✓ llm     1.3s 1 次   1442 tok  
+Y14  ✓ llm     2.5s 1 次   1445 tok  
+Y15  ✓ llm     1.7s 1 次   1440 tok  
+Y16  ✓ llm     1.9s 1 次   1440 tok  
+Y17  ✗ llm     1.1s 1 次   1444 tok  起點沒有定位
+Y18  ✓ rule    0.3s 0 次      0 tok  
+Y19  ✓ llm     2.0s 1 次   1444 tok  
+Y20  ✓ llm     1.5s 1 次   1444 tok  
+Y21  ✓ llm     1.4s 1 次   1444 tok  
+Y22  ✓ llm     1.6s 1 次   1437 tok  
+Y23  ✗ llm     1.8s 1 次   1439 tok  起點沒有定位
+Y24  ✓ llm     1.4s 1 次   1446 tok  
+Y25  ✓ llm     1.4s 1 次   1435 tok  
+Y26  ✗ llm     1.6s 1 次   1435 tok  intent overview≠destination；destination None≠九份；起點沒有定位
+Y27  ✓ llm     1.2s 1 次   1441 tok  
+Y28  ✓ llm     1.4s 1 次   1443 tok  
+Y29  ✓ llm     2.1s 1 次   1433 tok  
+Y30  ✓ llm     1.1s 1 次   1431 tok  
+
+全部：30 題，正確 26（87%），耗時中位數 1.5s、最大 2.5s，Gemini 29 次、token 合計 41823（每題平均 1394），不用 LLM 2 題
+simulated_short：30 題，正確 26（87%），耗時中位數 1.5s、最大 2.5s，Gemini 29 次、token 合計 41823（每題平均 1394），不用 LLM 2 題
+  ✗ Y8 榮總到台北車站公車：transport None≠bus  {'place': '榮總', 'intent': 'destination', 'destination': '台北車站'}
+  ✗ Y17 內湖科學園區到松山機場：起點沒有定位  {'destination': '松山機場', 'intent': 'destination', 'place': '內湖科學園區'}
+  ✗ Y23 和平醫院到台大不用轉車：起點沒有定位  {'place': '和平醫院', 'intent': 'destination', 'destination': '台大'}
+  ✗ Y26 台北車站到九份怎麼搭最快：intent overview≠destination；destination None≠九份；起點沒有定位  {'topic': '九份', 'reason': 'no_data'}
