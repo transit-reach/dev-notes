@@ -1,0 +1,4536 @@
+[
+ {
+  "set": "known",
+  "query": "興隆路二段 218號",
+  "result": [
+   {
+    "place_id": 230057717,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780068423,
+    "lat": "25.0012906",
+    "lon": "121.5524574",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "218號, 興隆路二段, 興業里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "218號",
+     "road": "興隆路二段",
+     "neighbourhood": "興業里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0012406",
+     "25.0013406",
+     "121.5524074",
+     "121.5525074"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "羅斯福路四段 1號",
+  "result": [
+   {
+    "place_id": 230200802,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10774582780,
+    "lat": "25.0151009",
+    "lon": "121.5359728",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 羅斯福路四段, 學府里, 大安區, 公館, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "羅斯福路四段",
+     "neighbourhood": "學府里",
+     "suburb": "大安區",
+     "village": "公館",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0150509",
+     "25.0151509",
+     "121.5359228",
+     "121.5360228"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "信義路五段 7號",
+  "result": [
+   {
+    "place_id": 230369722,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830329141,
+    "lat": "25.0321948",
+    "lon": "121.5606241",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "7號, 松勤街, 景新里, 信義區, 三張犁, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "7號",
+     "road": "松勤街",
+     "neighbourhood": "景新里",
+     "suburb": "信義區",
+     "village": "三張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0321448",
+     "25.0322448",
+     "121.5605741",
+     "121.5606741"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "市府路 1號",
+  "result": [
+   {
+    "place_id": 228613355,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10784906302,
+    "lat": "25.0374511",
+    "lon": "121.5638672",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 市府路, 西村里, 信義區, 信義商圈, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "市府路",
+     "neighbourhood": "西村里",
+     "suburb": "信義區",
+     "village": "信義商圈",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0374011",
+     "25.0375011",
+     "121.5638172",
+     "121.5639172"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "中華路二段 33號",
+  "result": [
+   {
+    "place_id": 230413244,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830254836,
+    "lat": "25.0355682",
+    "lon": "121.5067060",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "33號, 中華路二段, 愛國里, 中正區, 艋舺, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "33號",
+     "road": "中華路二段",
+     "neighbourhood": "愛國里",
+     "suburb": "中正區",
+     "village": "艋舺",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0355182",
+     "25.0356182",
+     "121.5066560",
+     "121.5067560"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "新光路二段 30號",
+  "result": [
+   {
+    "place_id": 229538117,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780051305,
+    "lat": "24.9986524",
+    "lon": "121.5812262",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "30號, 新光路二段, 萬興里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "30號",
+     "road": "新光路二段",
+     "neighbourhood": "萬興里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9986024",
+     "24.9987024",
+     "121.5811762",
+     "121.5812762"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "known",
+  "query": "敦化北路 340號",
+  "result": [
+   {
+    "place_id": 231622277,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10831516791,
+    "lat": "25.0636498",
+    "lon": "121.5519344",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "340號, 敦化北路, 精忠里, 松山區, 下埤頭, 臺北市, 105, 臺灣",
+    "address": {
+     "house_number": "340號",
+     "road": "敦化北路",
+     "neighbourhood": "精忠里",
+     "suburb": "松山區",
+     "village": "下埤頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "105",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0635998",
+     "25.0636998",
+     "121.5518844",
+     "121.5519844"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "萬大路423巷 77號",
+  "truth": {
+   "road": "萬大路423巷",
+   "lat": "25.0217892",
+   "lon": "121.5011209"
+  },
+  "result": [
+   {
+    "place_id": 230970053,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907731013,
+    "lat": "25.0217892",
+    "lon": "121.5011209",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "77號, 萬大路423巷, 壽德里, 萬華區, 東園, 臺北市, 108, 臺灣",
+    "address": {
+     "house_number": "77號",
+     "road": "萬大路423巷",
+     "neighbourhood": "壽德里",
+     "suburb": "萬華區",
+     "village": "東園",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "108",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0217392",
+     "25.0218392",
+     "121.5010709",
+     "121.5011709"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "松江路164巷 39號",
+  "truth": {
+   "road": "松江路164巷",
+   "lat": "25.0557068",
+   "lon": "121.5311601"
+  },
+  "result": [
+   {
+    "place_id": 229252173,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826441185,
+    "lat": "25.0557068",
+    "lon": "121.5311601",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "39號, 松江路164巷, 中吉里, 中山區, 朱厝崙, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "39號",
+     "road": "松江路164巷",
+     "neighbourhood": "中吉里",
+     "suburb": "中山區",
+     "village": "朱厝崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0556568",
+     "25.0557568",
+     "121.5311101",
+     "121.5312101"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "福德街373巷 94之1號",
+  "truth": {
+   "road": "福德街373巷",
+   "lat": "25.0380921",
+   "lon": "121.5942090"
+  },
+  "result": [
+   {
+    "place_id": 230961036,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830197901,
+    "lat": "25.0380921",
+    "lon": "121.5942090",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "94之1號, 福德街373巷, 仁福里, 南港區, 潭美, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "94之1號",
+     "road": "福德街373巷",
+     "neighbourhood": "仁福里",
+     "suburb": "南港區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0380421",
+     "25.0381421",
+     "121.5941590",
+     "121.5942590"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "康寧路三段189巷 14號",
+  "truth": {
+   "road": "康寧路三段189巷",
+   "lat": "25.0703661",
+   "lon": "121.6127265"
+  },
+  "result": [
+   {
+    "place_id": 231532993,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907303228,
+    "lat": "25.0703661",
+    "lon": "121.6127265",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "14號, 康寧路三段189巷, 安湖里, 內湖區, 五分, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "14號",
+     "road": "康寧路三段189巷",
+     "neighbourhood": "安湖里",
+     "suburb": "內湖區",
+     "village": "五分",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0703161",
+     "25.0704161",
+     "121.6126765",
+     "121.6127765"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "民權東路二段 174號",
+  "truth": {
+   "road": "民權東路二段",
+   "lat": "25.0622385",
+   "lon": "121.5355467"
+  },
+  "result": [
+   {
+    "place_id": 229152194,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826463916,
+    "lat": "25.0622385",
+    "lon": "121.5355467",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "174號, 民權東路二段, 松江里, 中山區, 下埤頭, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "174號",
+     "road": "民權東路二段",
+     "neighbourhood": "松江里",
+     "suburb": "中山區",
+     "village": "下埤頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0621885",
+     "25.0622885",
+     "121.5354967",
+     "121.5355967"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "興隆路三段 153號",
+  "truth": {
+   "road": "興隆路三段",
+   "lat": "24.9987240",
+   "lon": "121.5616580"
+  },
+  "result": [
+   {
+    "place_id": 230232811,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780066008,
+    "lat": "24.9980421",
+    "lon": "121.5592956",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "153號, 興隆路三段, 興光里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "153號",
+     "road": "興隆路三段",
+     "neighbourhood": "興光里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9979921",
+     "24.9980921",
+     "121.5592456",
+     "121.5593456"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "北安路 392號",
+  "truth": {
+   "road": "北安路",
+   "lat": "25.0793047",
+   "lon": "121.5400441"
+  },
+  "result": [
+   {
+    "place_id": 230675011,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826484259,
+    "lat": "25.0793047",
+    "lon": "121.5400441",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "392號, 北安路, 劍潭里, 中山區, 下埤頭, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "392號",
+     "road": "北安路",
+     "neighbourhood": "劍潭里",
+     "suburb": "中山區",
+     "village": "下埤頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0792547",
+     "25.0793547",
+     "121.5399941",
+     "121.5400941"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "濟南路一段 6號",
+  "truth": {
+   "road": "濟南路一段",
+   "lat": "25.0418983",
+   "lon": "121.5216989"
+  },
+  "result": [
+   {
+    "place_id": 230410789,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826554451,
+    "lat": "25.0423990",
+    "lon": "121.5218242",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "6號, 濟南路一段, 幸福里, 中正區, 華山, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "6號",
+     "road": "濟南路一段",
+     "neighbourhood": "幸福里",
+     "suburb": "中正區",
+     "village": "華山",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0423490",
+     "25.0424490",
+     "121.5217742",
+     "121.5218742"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "內湖路三段 429號",
+  "truth": {
+   "road": "內湖路三段",
+   "lat": "25.0972823",
+   "lon": "121.5777700"
+  },
+  "result": [
+   {
+    "place_id": 231288435,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907282104,
+    "lat": "25.0972823",
+    "lon": "121.5777700",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "429號, 內湖路三段, 金瑞里, 內湖區, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "429號",
+     "road": "內湖路三段",
+     "neighbourhood": "金瑞里",
+     "suburb": "內湖區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0972323",
+     "25.0973323",
+     "121.5777200",
+     "121.5778200"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "辛亥路四段77巷92弄 3號",
+  "truth": {
+   "road": "辛亥路四段77巷92弄",
+   "lat": "25.0090031",
+   "lon": "121.5604209"
+  },
+  "result": [
+   {
+    "place_id": 230077859,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780076760,
+    "lat": "25.0090031",
+    "lon": "121.5604209",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "3號, 辛亥路四段77巷92弄, 興昌里, 文山區, 六張犁, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "3號",
+     "road": "辛亥路四段77巷92弄",
+     "neighbourhood": "興昌里",
+     "suburb": "文山區",
+     "village": "六張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0089531",
+     "25.0090531",
+     "121.5603709",
+     "121.5604709"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "南港路二段86巷8弄 14號",
+  "truth": {
+   "road": "南港路二段86巷8弄",
+   "lat": "25.0541388",
+   "lon": "121.6025147"
+  },
+  "result": [
+   {
+    "place_id": 229792833,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830148364,
+    "lat": "25.0541388",
+    "lon": "121.6025147",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "14號, 南港路二段86巷8弄, 東明里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "14號",
+     "road": "南港路二段86巷8弄",
+     "neighbourhood": "東明里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0540888",
+     "25.0541888",
+     "121.6024647",
+     "121.6025647"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "後港街134巷 36號",
+  "truth": {
+   "road": "後港街134巷",
+   "lat": "25.0868560",
+   "lon": "121.5203203"
+  },
+  "result": [
+   {
+    "place_id": 229064444,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910749416,
+    "lat": "25.0868560",
+    "lon": "121.5203203",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "36號, 後港街134巷, 前港里, 士林區, 社子, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "36號",
+     "road": "後港街134巷",
+     "neighbourhood": "前港里",
+     "suburb": "士林區",
+     "village": "社子",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0868060",
+     "25.0869060",
+     "121.5202703",
+     "121.5203703"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "大業路 263號",
+  "truth": {
+   "road": "大業路",
+   "lat": "25.1267980",
+   "lon": "121.4977451"
+  },
+  "result": [
+   {
+    "place_id": 231320728,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910851010,
+    "lat": "25.1267980",
+    "lon": "121.4977451",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "263號, 大業路, 八仙里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "263號",
+     "road": "大業路",
+     "neighbourhood": "八仙里",
+     "suburb": "北投區",
+     "village": "奇岩",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1267480",
+     "25.1268480",
+     "121.4976951",
+     "121.4977951"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "福德街221巷 15號",
+  "truth": {
+   "road": "福德街221巷",
+   "lat": "25.0370063",
+   "lon": "121.5860656"
+  },
+  "result": [
+   {
+    "place_id": 230216870,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830210067,
+    "lat": "25.0370637",
+    "lon": "121.5853111",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "15號, 福德街221巷, 中行里, 信義區, 麗山里, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "15號",
+     "road": "福德街221巷",
+     "neighbourhood": "中行里",
+     "suburb": "信義區",
+     "village": "麗山里",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0370137",
+     "25.0371137",
+     "121.5852611",
+     "121.5853611"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "景華街128巷 92號",
+  "truth": {
+   "road": "景華街128巷",
+   "lat": "24.9940230",
+   "lon": "121.5481183"
+  },
+  "result": [
+   {
+    "place_id": 226945332,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780087814,
+    "lat": "24.9940230",
+    "lon": "121.5481183",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "92號, 景華街128巷, 景華山莊, 景東里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "92號",
+     "road": "景華街128巷",
+     "residential": "景華山莊",
+     "neighbourhood": "景東里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9939730",
+     "24.9940730",
+     "121.5480683",
+     "121.5481683"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "克強路10巷 17號",
+  "truth": {
+   "road": "克強路10巷",
+   "lat": "25.1098452",
+   "lon": "121.5240088"
+  },
+  "result": [
+   {
+    "place_id": 230927749,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910720511,
+    "lat": "25.1098452",
+    "lon": "121.5240088",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "17號, 克強路10巷, 蘭興里, 士林區, 蘭雅, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "17號",
+     "road": "克強路10巷",
+     "neighbourhood": "蘭興里",
+     "suburb": "士林區",
+     "village": "蘭雅",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1097952",
+     "25.1098952",
+     "121.5239588",
+     "121.5240588"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "堤頂大道二段407巷 22號",
+  "truth": {
+   "road": "堤頂大道二段407巷",
+   "lat": "25.0811947",
+   "lon": "121.5638870"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "永吉路 189號",
+  "truth": {
+   "road": "永吉路",
+   "lat": "25.0457760",
+   "lon": "121.5730200"
+  },
+  "result": [
+   {
+    "place_id": 230685560,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830276810,
+    "lat": "25.0457487",
+    "lon": "121.5727584",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "189號, 永吉路, 五常里, 信義區, 興雅, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "189號",
+     "road": "永吉路",
+     "neighbourhood": "五常里",
+     "suburb": "信義區",
+     "village": "興雅",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0456987",
+     "25.0457987",
+     "121.5727084",
+     "121.5728084"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "指南路二段 64號",
+  "truth": {
+   "road": "指南路二段",
+   "lat": "24.9800449",
+   "lon": "121.5778646"
+  },
+  "result": [
+   {
+    "place_id": 229524852,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785115328,
+    "lat": "24.9874253",
+    "lon": "121.5764910",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "64號, 指南路二段, 萬興里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "64號",
+     "road": "指南路二段",
+     "neighbourhood": "萬興里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9873753",
+     "24.9874753",
+     "121.5764410",
+     "121.5765410"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "安泰街 17號",
+  "truth": {
+   "road": "安泰街",
+   "lat": "25.0735337",
+   "lon": "121.6189607"
+  },
+  "result": [
+   {
+    "place_id": 230711122,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907312151,
+    "lat": "25.0730653",
+    "lon": "121.6190083",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 6.715571831841028e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "17號, 安泰街, 樂康里, 內湖區, 五分, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "17號",
+     "road": "安泰街",
+     "neighbourhood": "樂康里",
+     "suburb": "內湖區",
+     "village": "五分",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0730153",
+     "25.0731153",
+     "121.6189583",
+     "121.6190583"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "文林北路 727號",
+  "truth": {
+   "road": "文林北路",
+   "lat": "25.1008336",
+   "lon": "121.5196318"
+  },
+  "result": [
+   {
+    "place_id": 231337214,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "way",
+    "osm_id": 1453497806,
+    "lat": "25.1064636",
+    "lon": "121.5160666",
+    "category": "highway",
+    "type": "secondary",
+    "place_rank": 26,
+    "importance": 0.05340790341039136,
+    "addresstype": "secondary",
+    "name": "文林北路",
+    "display_name": "文林北路, 建民里, 北投區, 蘭雅, 臺北市, 11287, 臺灣",
+    "address": {
+     "road": "文林北路",
+     "neighbourhood": "建民里",
+     "suburb": "北投區",
+     "village": "蘭雅",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "11287",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": {
+     "name": "文林北路",
+     "name:en": "Wenlin North Road",
+     "name:zh": "文林北路",
+     "name:nan": "Bûn-lîm-pak-lō͘",
+     "name:zh-hant": "文林北路",
+     "name:nan-Hant": "文林北路",
+     "name:nan-Latn-tailo": "Bûn-lîm-pak-lōo",
+     "name:nan-Latn-pehoeji": "Bûn-lîm-pak-lō͘"
+    },
+    "boundingbox": [
+     "25.1060869",
+     "25.1068343",
+     "121.5155743",
+     "121.5165543"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "萬壽路 115號",
+  "truth": {
+   "road": "萬壽路",
+   "lat": "24.9792818",
+   "lon": "121.5876309"
+  },
+  "result": [
+   {
+    "place_id": 229450434,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785109060,
+    "lat": "24.9798521",
+    "lon": "121.5866161",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "115號, 萬壽路, 指南里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "115號",
+     "road": "萬壽路",
+     "neighbourhood": "指南里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9798021",
+     "24.9799021",
+     "121.5865661",
+     "121.5866661"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "重陽路 267號",
+  "truth": {
+   "road": "重陽路",
+   "lat": "25.0580568",
+   "lon": "121.6037471"
+  },
+  "result": [
+   {
+    "place_id": 229723003,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830149140,
+    "lat": "25.0580568",
+    "lon": "121.6037471",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "267號, 重陽路, 重陽里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "267號",
+     "road": "重陽路",
+     "neighbourhood": "重陽里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0580068",
+     "25.0581068",
+     "121.6036971",
+     "121.6037971"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "羅斯福路四段 1號",
+  "truth": {
+   "road": "羅斯福路四段",
+   "lat": "25.0145144",
+   "lon": "121.5379918"
+  },
+  "result": [
+   {
+    "place_id": 230200802,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10774582780,
+    "lat": "25.0151009",
+    "lon": "121.5359728",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 羅斯福路四段, 學府里, 大安區, 公館, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "羅斯福路四段",
+     "neighbourhood": "學府里",
+     "suburb": "大安區",
+     "village": "公館",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0150509",
+     "25.0151509",
+     "121.5359228",
+     "121.5360228"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "中央南路二段39巷 26號",
+  "truth": {
+   "road": "中央南路二段39巷",
+   "lat": "25.1232546",
+   "lon": "121.5009772"
+  },
+  "result": [
+   {
+    "place_id": 230932151,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910852310,
+    "lat": "25.1232546",
+    "lon": "121.5009772",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "26號, 中央南路二段39巷, 中央南路工業區, 八仙里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "26號",
+     "road": "中央南路二段39巷",
+     "industrial": "中央南路工業區",
+     "neighbourhood": "八仙里",
+     "suburb": "北投區",
+     "village": "奇岩",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1232046",
+     "25.1233046",
+     "121.5009272",
+     "121.5010272"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "羅斯福路四段113巷 29號",
+  "truth": {
+   "road": "羅斯福路四段113巷",
+   "lat": "25.0088187",
+   "lon": "121.5419021"
+  },
+  "result": [
+   {
+    "place_id": 231029589,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10772908948,
+    "lat": "25.0112353",
+    "lon": "121.5410693",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "29號, 羅斯福路四段113巷, 學府里, 大安區, 公館, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "29號",
+     "road": "羅斯福路四段113巷",
+     "neighbourhood": "學府里",
+     "suburb": "大安區",
+     "village": "公館",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0111853",
+     "25.0112853",
+     "121.5410193",
+     "121.5411193"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "承德路三段24巷 28號",
+  "truth": {
+   "road": "承德路三段24巷",
+   "lat": "25.0641515",
+   "lon": "121.5168117"
+  },
+  "result": [
+   {
+    "place_id": 230911208,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10908261488,
+    "lat": "25.0641515",
+    "lon": "121.5168117",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "28號, 承德路三段24巷, 蓬萊里, 大同區, 雙連, 臺北市, 103, 臺灣",
+    "address": {
+     "house_number": "28號",
+     "road": "承德路三段24巷",
+     "neighbourhood": "蓬萊里",
+     "suburb": "大同區",
+     "village": "雙連",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "103",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0641015",
+     "25.0642015",
+     "121.5167617",
+     "121.5168617"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "基隆路二段 99號",
+  "truth": {
+   "road": "基隆路二段",
+   "lat": "25.0291701",
+   "lon": "121.5587105"
+  },
+  "result": [
+   {
+    "place_id": 230091854,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830332189,
+    "lat": "25.0297117",
+    "lon": "121.5580218",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "99號, 基隆路二段, 景聯里, 信義區, 三張犁, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "99號",
+     "road": "基隆路二段",
+     "neighbourhood": "景聯里",
+     "suburb": "信義區",
+     "village": "三張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0296617",
+     "25.0297617",
+     "121.5579718",
+     "121.5580718"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "至善路三段181巷5弄 臨2號",
+  "truth": {
+   "road": "至善路三段181巷5弄",
+   "lat": "25.1224172",
+   "lon": "121.5770487"
+  },
+  "result": [
+   {
+    "place_id": 231771787,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910764282,
+    "lat": "25.1224172",
+    "lon": "121.5770487",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "臨2號, 至善路三段181巷5弄, 溪山里, 士林區, 平等頭, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "臨2號",
+     "road": "至善路三段181巷5弄",
+     "neighbourhood": "溪山里",
+     "suburb": "士林區",
+     "village": "平等頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1223672",
+     "25.1224672",
+     "121.5769987",
+     "121.5770987"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "永安街22巷 27號",
+  "truth": {
+   "road": "永安街22巷",
+   "lat": "24.9867019",
+   "lon": "121.5688207"
+  },
+  "result": [
+   {
+    "place_id": 228605389,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785059096,
+    "lat": "24.9867019",
+    "lon": "121.5688207",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "27號, 永安街22巷, 木新里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "27號",
+     "road": "永安街22巷",
+     "neighbourhood": "木新里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9866519",
+     "24.9867519",
+     "121.5687707",
+     "121.5688707"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "大安路一段19巷 33號",
+  "truth": {
+   "road": "大安路一段19巷",
+   "lat": "25.0445115",
+   "lon": "121.5477334"
+  },
+  "result": [
+   {
+    "place_id": 230377643,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10828390819,
+    "lat": "25.0445115",
+    "lon": "121.5477334",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "33號, 大安路一段19巷, 光武里, 大安區, 東區商圈, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "33號",
+     "road": "大安路一段19巷",
+     "neighbourhood": "光武里",
+     "suburb": "大安區",
+     "village": "東區商圈",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0444615",
+     "25.0445615",
+     "121.5476834",
+     "121.5477834"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "廈門街74巷 3號",
+  "truth": {
+   "road": "廈門街74巷",
+   "lat": "25.0247621",
+   "lon": "121.5170434"
+  },
+  "result": [
+   {
+    "place_id": 228866746,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10828333061,
+    "lat": "25.0247621",
+    "lon": "121.5170434",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "3號, 廈門街74巷, 螢圃里, 中正區, 古亭, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "3號",
+     "road": "廈門街74巷",
+     "neighbourhood": "螢圃里",
+     "suburb": "中正區",
+     "village": "古亭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0247121",
+     "25.0248121",
+     "121.5169934",
+     "121.5170934"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "洲美街196巷 6號",
+  "truth": {
+   "road": "洲美街196巷",
+   "lat": "25.1024780",
+   "lon": "121.5026251"
+  },
+  "result": [
+   {
+    "place_id": 231379594,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10911144840,
+    "lat": "25.1024780",
+    "lon": "121.5026251",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "6號, 洲美街196巷, 洲美里, 北投區, 社子, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "6號",
+     "road": "洲美街196巷",
+     "neighbourhood": "洲美里",
+     "suburb": "北投區",
+     "village": "社子",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1024280",
+     "25.1025280",
+     "121.5025751",
+     "121.5026751"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "富康街1巷 臨1號",
+  "truth": {
+   "road": "富康街1巷",
+   "lat": "25.0540613",
+   "lon": "121.6168804"
+  },
+  "result": [
+   {
+    "place_id": 230293503,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830170845,
+    "lat": "25.0540613",
+    "lon": "121.6168804",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "臨1號, 富康街1巷, 新富里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "臨1號",
+     "road": "富康街1巷",
+     "neighbourhood": "新富里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0540113",
+     "25.0541113",
+     "121.6168304",
+     "121.6169304"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "新光路二段 30號",
+  "truth": {
+   "road": "新光路二段",
+   "lat": "24.9975980",
+   "lon": "121.5882840"
+  },
+  "result": [
+   {
+    "place_id": 229538117,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780051305,
+    "lat": "24.9986524",
+    "lon": "121.5812262",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "30號, 新光路二段, 萬興里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "30號",
+     "road": "新光路二段",
+     "neighbourhood": "萬興里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9986024",
+     "24.9987024",
+     "121.5811762",
+     "121.5812762"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "東山路25巷81弄 34號",
+  "truth": {
+   "road": "東山路25巷81弄",
+   "lat": "25.1224807",
+   "lon": "121.5425228"
+  },
+  "result": [
+   {
+    "place_id": 230858794,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910761599,
+    "lat": "25.1224807",
+    "lon": "121.5425228",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "34號, 東山路25巷81弄, 東山里, 士林區, 下東勢, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "34號",
+     "road": "東山路25巷81弄",
+     "neighbourhood": "東山里",
+     "suburb": "士林區",
+     "village": "下東勢",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1224307",
+     "25.1225307",
+     "121.5424728",
+     "121.5425728"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "天玉街 2號",
+  "truth": {
+   "road": "天玉街",
+   "lat": "25.1228378",
+   "lon": "121.5310653"
+  },
+  "result": [
+   {
+    "place_id": 229600472,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910727417,
+    "lat": "25.1225401",
+    "lon": "121.5309412",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "2號, 天玉街, 天母里, 士林區, 蘭雅, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "2號",
+     "road": "天玉街",
+     "neighbourhood": "天母里",
+     "suburb": "士林區",
+     "village": "蘭雅",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1224901",
+     "25.1225901",
+     "121.5308912",
+     "121.5309912"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "民權東路六段280巷45弄 41號",
+  "truth": {
+   "road": "民權東路六段280巷45弄",
+   "lat": "25.0701826",
+   "lon": "121.6058191"
+  },
+  "result": [
+   {
+    "place_id": 231544801,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907291284,
+    "lat": "25.0701826",
+    "lon": "121.6058191",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "41號, 民權東路六段280巷45弄, 葫洲里, 內湖區, 五分, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "41號",
+     "road": "民權東路六段280巷45弄",
+     "neighbourhood": "葫洲里",
+     "suburb": "內湖區",
+     "village": "五分",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0701326",
+     "25.0702326",
+     "121.6057691",
+     "121.6058691"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "仰德大道二段70巷 10號",
+  "truth": {
+   "road": "仰德大道二段70巷",
+   "lat": "25.1053538",
+   "lon": "121.5464553"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "成功路二段313巷 19號",
+  "truth": {
+   "road": "成功路二段313巷",
+   "lat": "25.0741515",
+   "lon": "121.5921106"
+  },
+  "result": [
+   {
+    "place_id": 230832934,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845405653,
+    "lat": "25.0741515",
+    "lon": "121.5921106",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "19號, 成功路二段313巷, 湖興里, 內湖區, 潭美, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "19號",
+     "road": "成功路二段313巷",
+     "neighbourhood": "湖興里",
+     "suburb": "內湖區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0741015",
+     "25.0742015",
+     "121.5920606",
+     "121.5921606"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "中山北路七段232巷26弄 3號",
+  "truth": {
+   "road": "中山北路七段232巷26弄",
+   "lat": "25.1254289",
+   "lon": "121.5354358"
+  },
+  "result": [
+   {
+    "place_id": 231787548,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910739550,
+    "lat": "25.1254289",
+    "lon": "121.5354358",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "3號, 中山北路七段232巷26弄, 天和里, 士林區, 下東勢, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "3號",
+     "road": "中山北路七段232巷26弄",
+     "neighbourhood": "天和里",
+     "suburb": "士林區",
+     "village": "下東勢",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1253789",
+     "25.1254789",
+     "121.5353858",
+     "121.5354858"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "研究院路三段 臨12號",
+  "truth": {
+   "road": "研究院路三段",
+   "lat": "25.0342146",
+   "lon": "121.6127778"
+  },
+  "result": [
+   {
+    "place_id": 229937891,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830177116,
+    "lat": "25.0342358",
+    "lon": "121.6127714",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "臨12號, 研究院路三段, 九如里, 南港區, 四分里, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "臨12號",
+     "road": "研究院路三段",
+     "neighbourhood": "九如里",
+     "suburb": "南港區",
+     "village": "四分里",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0341858",
+     "25.0342858",
+     "121.6127214",
+     "121.6128214"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "平菁街106巷 57號",
+  "truth": {
+   "road": "平菁街106巷",
+   "lat": "25.1264713",
+   "lon": "121.5711276"
+  },
+  "result": [
+   {
+    "place_id": 229667093,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910764962,
+    "lat": "25.1264713",
+    "lon": "121.5711276",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "57號, 平菁街106巷, 平等里, 士林區, 平等頭, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "57號",
+     "road": "平菁街106巷",
+     "neighbourhood": "平等里",
+     "suburb": "士林區",
+     "village": "平等頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1264213",
+     "25.1265213",
+     "121.5710776",
+     "121.5711776"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "嘉興街181巷 6之1號",
+  "truth": {
+   "road": "嘉興街181巷",
+   "lat": "25.0260058",
+   "lon": "121.5568128"
+  },
+  "result": [
+   {
+    "place_id": 228674506,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10828365946,
+    "lat": "25.0260058",
+    "lon": "121.5568128",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "6之1號, 嘉興街181巷, 嘉興里, 信義區, 六張犁, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "6之1號",
+     "road": "嘉興街181巷",
+     "neighbourhood": "嘉興里",
+     "suburb": "信義區",
+     "village": "六張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0259558",
+     "25.0260558",
+     "121.5567628",
+     "121.5568628"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "南港路一段 263之14號",
+  "truth": {
+   "road": "南港路一段",
+   "lat": "25.0541122",
+   "lon": "121.6105463"
+  },
+  "result": [
+   {
+    "place_id": 230592896,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830165992,
+    "lat": "25.0541122",
+    "lon": "121.6105463",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "263之14號, 南港路一段, 南港里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "263之14號",
+     "road": "南港路一段",
+     "neighbourhood": "南港里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0540622",
+     "25.0541622",
+     "121.6104963",
+     "121.6105963"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "辛亥路四段101巷140弄 66之9號",
+  "truth": {
+   "road": "辛亥路四段101巷140弄",
+   "lat": "25.0084132",
+   "lon": "121.5620108"
+  },
+  "result": [
+   {
+    "place_id": 230847519,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780077333,
+    "lat": "25.0084132",
+    "lon": "121.5620108",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "66之9號, 辛亥路四段101巷140弄, 國花山莊, 興昌里, 文山區, 六張犁, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "66之9號",
+     "road": "辛亥路四段101巷140弄",
+     "residential": "國花山莊",
+     "neighbourhood": "興昌里",
+     "suburb": "文山區",
+     "village": "六張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0083632",
+     "25.0084632",
+     "121.5619608",
+     "121.5620608"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "羅斯福路四段113巷 8號",
+  "truth": {
+   "road": "羅斯福路四段113巷",
+   "lat": "25.0116188",
+   "lon": "121.5386459"
+  },
+  "result": [
+   {
+    "place_id": 230117763,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10777451235,
+    "lat": "25.0118722",
+    "lon": "121.5391352",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "8號, 羅斯福路四段113巷, 學府里, 大安區, 公館, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "8號",
+     "road": "羅斯福路四段113巷",
+     "neighbourhood": "學府里",
+     "suburb": "大安區",
+     "village": "公館",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0118222",
+     "25.0119222",
+     "121.5390852",
+     "121.5391852"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "和平東路二段265巷 19號",
+  "truth": {
+   "road": "和平東路二段265巷",
+   "lat": "25.0266318",
+   "lon": "121.5441272"
+  },
+  "result": [
+   {
+    "place_id": 230325349,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826629868,
+    "lat": "25.0266318",
+    "lon": "121.5441272",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "19號, 和平東路二段265巷, 群賢里, 大安區, 六張犁, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "19號",
+     "road": "和平東路二段265巷",
+     "neighbourhood": "群賢里",
+     "suburb": "大安區",
+     "village": "六張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0265818",
+     "25.0266818",
+     "121.5440772",
+     "121.5441772"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "寧安街 12號",
+  "truth": {
+   "road": "寧安街",
+   "lat": "25.0500425",
+   "lon": "121.5541017"
+  },
+  "result": [
+   {
+    "place_id": 229124417,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10831548711,
+    "lat": "25.0496210",
+    "lon": "121.5543412",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "12號, 寧安街, 美仁里, 松山區, 中崙, 臺北市, 105, 臺灣",
+    "address": {
+     "house_number": "12號",
+     "road": "寧安街",
+     "neighbourhood": "美仁里",
+     "suburb": "松山區",
+     "village": "中崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "105",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0495710",
+     "25.0496710",
+     "121.5542912",
+     "121.5543912"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "興隆路二段22巷9弄 12號",
+  "truth": {
+   "road": "興隆路二段22巷9弄",
+   "lat": "24.9975223",
+   "lon": "121.5462661"
+  },
+  "result": [
+   {
+    "place_id": 229235880,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780090613,
+    "lat": "24.9975223",
+    "lon": "121.5462661",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "12號, 興隆路二段22巷9弄, 興福里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "12號",
+     "road": "興隆路二段22巷9弄",
+     "neighbourhood": "興福里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9974723",
+     "24.9975723",
+     "121.5462161",
+     "121.5463161"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "內湖路一段1巷9弄 23號",
+  "truth": {
+   "road": "內湖路一段1巷9弄",
+   "lat": "25.0860067",
+   "lon": "121.5579014"
+  },
+  "result": [
+   {
+    "place_id": 228205154,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845393536,
+    "lat": "25.0860067",
+    "lon": "121.5579014",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "23號, 內湖路一段1巷9弄, 西康里, 內湖區, 下塔悠, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "23號",
+     "road": "內湖路一段1巷9弄",
+     "neighbourhood": "西康里",
+     "suburb": "內湖區",
+     "village": "下塔悠",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0859567",
+     "25.0860567",
+     "121.5578514",
+     "121.5579514"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "嘉興街347巷 2號",
+  "truth": {
+   "road": "嘉興街347巷",
+   "lat": "25.0220481",
+   "lon": "121.5524763"
+  },
+  "result": [
+   {
+    "place_id": 229947376,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780081139,
+    "lat": "25.0220481",
+    "lon": "121.5524763",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "2號, 嘉興街347巷, 芳和里, 大安區, 六張犁, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "2號",
+     "road": "嘉興街347巷",
+     "neighbourhood": "芳和里",
+     "suburb": "大安區",
+     "village": "六張犁",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0219981",
+     "25.0220981",
+     "121.5524263",
+     "121.5525263"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "新明路143巷 8號",
+  "truth": {
+   "road": "新明路143巷",
+   "lat": "25.0589277",
+   "lon": "121.5897161"
+  },
+  "result": [
+   {
+    "place_id": 230248565,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845422250,
+    "lat": "25.0589277",
+    "lon": "121.5897161",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "8號, 新明路143巷, 石潭里, 內湖區, 潭美, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "8號",
+     "road": "新明路143巷",
+     "neighbourhood": "石潭里",
+     "suburb": "內湖區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0588777",
+     "25.0589777",
+     "121.5896661",
+     "121.5897661"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "文間山步道 74號",
+  "truth": {
+   "road": "文間山步道",
+   "lat": "25.0935908",
+   "lon": "121.5511312"
+  },
+  "result": [
+   {
+    "place_id": 231406503,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910768096,
+    "lat": "25.0935908",
+    "lon": "121.5511312",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "74號, 文間山步道, 臨溪里, 士林區, 下塔悠, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "74號",
+     "road": "文間山步道",
+     "neighbourhood": "臨溪里",
+     "suburb": "士林區",
+     "village": "下塔悠",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0935408",
+     "25.0936408",
+     "121.5510812",
+     "121.5511812"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "下東勢產業道路 57號",
+  "truth": {
+   "road": "下東勢產業道路",
+   "lat": "25.1168868",
+   "lon": "121.5415629"
+  },
+  "result": [
+   {
+    "place_id": 230784367,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910761991,
+    "lat": "25.1193193",
+    "lon": "121.5424587",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "57號, 下東勢產業道路, 東山里, 士林區, 下東勢, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "57號",
+     "road": "下東勢產業道路",
+     "neighbourhood": "東山里",
+     "suburb": "士林區",
+     "village": "下東勢",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1192693",
+     "25.1193693",
+     "121.5424087",
+     "121.5425087"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "敦化北路 340-9號",
+  "truth": {
+   "road": "敦化北路",
+   "lat": "25.0664770",
+   "lon": "121.5548877"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "延吉街131巷2弄 9之1號",
+  "truth": {
+   "road": "延吉街131巷2弄",
+   "lat": "25.0423028",
+   "lon": "121.5547041"
+  },
+  "result": [
+   {
+    "place_id": 231202841,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830303531,
+    "lat": "25.0423028",
+    "lon": "121.5547041",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "9之1號, 延吉街131巷2弄, 華聲里, 大安區, 車罾, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "9之1號",
+     "road": "延吉街131巷2弄",
+     "neighbourhood": "華聲里",
+     "suburb": "大安區",
+     "village": "車罾",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0422528",
+     "25.0423528",
+     "121.5546541",
+     "121.5547541"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "立農街二段 301號",
+  "truth": {
+   "road": "立農街二段",
+   "lat": "25.1204268",
+   "lon": "121.5160976"
+  },
+  "result": [
+   {
+    "place_id": 231200014,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10911136686,
+    "lat": "25.1188454",
+    "lon": "121.5168744",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "301號, 立農街二段, 永明里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "301號",
+     "road": "立農街二段",
+     "neighbourhood": "永明里",
+     "suburb": "北投區",
+     "village": "奇岩",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1187954",
+     "25.1188954",
+     "121.5168244",
+     "121.5169244"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "園區街 46號",
+  "truth": {
+   "road": "園區街",
+   "lat": "25.0596422",
+   "lon": "121.6124621"
+  },
+  "result": [
+   {
+    "place_id": 230326674,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830166586,
+    "lat": "25.0596991",
+    "lon": "121.6121825",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "46號, 園區街, 三重里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "46號",
+     "road": "園區街",
+     "neighbourhood": "三重里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0596491",
+     "25.0597491",
+     "121.6121325",
+     "121.6122325"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "景興路282巷 5之1號",
+  "truth": {
+   "road": "景興路282巷",
+   "lat": "24.9894942",
+   "lon": "121.5418984"
+  },
+  "result": [
+   {
+    "place_id": 229506393,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780048754,
+    "lat": "24.9894942",
+    "lon": "121.5418984",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "5之1號, 景興路282巷, 景行里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "5之1號",
+     "road": "景興路282巷",
+     "neighbourhood": "景行里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9894442",
+     "24.9895442",
+     "121.5418484",
+     "121.5419484"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "指南路二段 64號",
+  "truth": {
+   "road": "指南路二段",
+   "lat": "24.9817417",
+   "lon": "121.5737755"
+  },
+  "result": [
+   {
+    "place_id": 229524852,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785115328,
+    "lat": "24.9874253",
+    "lon": "121.5764910",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "64號, 指南路二段, 萬興里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "64號",
+     "road": "指南路二段",
+     "neighbourhood": "萬興里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9873753",
+     "24.9874753",
+     "121.5764410",
+     "121.5765410"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "新光路二段 30號",
+  "truth": {
+   "road": "新光路二段",
+   "lat": "24.9953546",
+   "lon": "121.5861491"
+  },
+  "result": [
+   {
+    "place_id": 229538117,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10780051305,
+    "lat": "24.9986524",
+    "lon": "121.5812262",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "30號, 新光路二段, 萬興里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "30號",
+     "road": "新光路二段",
+     "neighbourhood": "萬興里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9986024",
+     "24.9987024",
+     "121.5811762",
+     "121.5812762"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "敦化南路一段 370號",
+  "truth": {
+   "road": "敦化南路一段",
+   "lat": "25.0337889",
+   "lon": "121.5483520"
+  },
+  "result": [
+   {
+    "place_id": 230256324,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826522397,
+    "lat": "25.0336443",
+    "lon": "121.5484588",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "370號, 敦化南路一段, 德安里, 大安區, 東區商圈, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "370號",
+     "road": "敦化南路一段",
+     "neighbourhood": "德安里",
+     "suburb": "大安區",
+     "village": "東區商圈",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0335943",
+     "25.0336943",
+     "121.5484088",
+     "121.5485088"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "羅斯福路六段166巷8弄 10號",
+  "truth": {
+   "road": "羅斯福路六段166巷8弄",
+   "lat": "24.9952274",
+   "lon": "121.5406245"
+  },
+  "result": [
+   {
+    "place_id": 229191680,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10778163829,
+    "lat": "24.9952274",
+    "lon": "121.5406245",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "10號, 羅斯福路六段166巷8弄, 景仁里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "10號",
+     "road": "羅斯福路六段166巷8弄",
+     "neighbourhood": "景仁里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9951774",
+     "24.9952774",
+     "121.5405745",
+     "121.5406745"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "龍江路249巷 15號",
+  "truth": {
+   "road": "龍江路249巷",
+   "lat": "25.0588028",
+   "lon": "121.5416296"
+  },
+  "result": [
+   {
+    "place_id": 230465764,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826456457,
+    "lat": "25.0588028",
+    "lon": "121.5416296",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "15號, 龍江路249巷, 江山里, 中山區, 朱厝崙, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "15號",
+     "road": "龍江路249巷",
+     "neighbourhood": "江山里",
+     "suburb": "中山區",
+     "village": "朱厝崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0587528",
+     "25.0588528",
+     "121.5415796",
+     "121.5416796"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "敦化北路 340-9號",
+  "truth": {
+   "road": "敦化北路",
+   "lat": "25.0664770",
+   "lon": "121.5548877"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "舊宗路一段 128號",
+  "truth": {
+   "road": "舊宗路一段",
+   "lat": "25.0610213",
+   "lon": "121.5781043"
+  },
+  "result": [
+   {
+    "place_id": 229456634,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845428001,
+    "lat": "25.0610319",
+    "lon": "121.5782643",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "128號, 舊宗路一段, 湖元里, 內湖區, 潭美, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "128號",
+     "road": "舊宗路一段",
+     "neighbourhood": "湖元里",
+     "suburb": "內湖區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0609819",
+     "25.0610819",
+     "121.5782143",
+     "121.5783143"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "北安路 387號",
+  "truth": {
+   "road": "北安路",
+   "lat": "25.0806708",
+   "lon": "121.5400280"
+  },
+  "result": [
+   {
+    "place_id": 228304779,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826491209,
+    "lat": "25.0797757",
+    "lon": "121.5404286",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "387號, 北安路, 劍潭里, 中山區, 下埤頭, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "387號",
+     "road": "北安路",
+     "neighbourhood": "劍潭里",
+     "suburb": "中山區",
+     "village": "下埤頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0797257",
+     "25.0798257",
+     "121.5403786",
+     "121.5404786"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "成功路二段 325號",
+  "truth": {
+   "road": "成功路二段",
+   "lat": "25.0717439",
+   "lon": "121.5923130"
+  },
+  "result": [
+   {
+    "place_id": 231335352,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845414447,
+    "lat": "25.0717819",
+    "lon": "121.5919796",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "325號, 成功路二段, 湖興里, 內湖區, 潭美, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "325號",
+     "road": "成功路二段",
+     "neighbourhood": "湖興里",
+     "suburb": "內湖區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0717319",
+     "25.0718319",
+     "121.5919296",
+     "121.5920296"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "新光路二段74巷 15號",
+  "truth": {
+   "road": "新光路二段74巷",
+   "lat": "24.9836926",
+   "lon": "121.5995935"
+  },
+  "result": [
+   {
+    "place_id": 230290418,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785110282,
+    "lat": "24.9836926",
+    "lon": "121.5995935",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 6.715571831841028e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "15號, 新光路二段74巷, 政大里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "15號",
+     "road": "新光路二段74巷",
+     "neighbourhood": "政大里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9836426",
+     "24.9837426",
+     "121.5995435",
+     "121.5996435"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "齊東街70巷 7號",
+  "truth": {
+   "road": "齊東街70巷",
+   "lat": "25.0426996",
+   "lon": "121.5277078"
+  },
+  "result": [
+   {
+    "place_id": 231119685,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826561529,
+    "lat": "25.0426996",
+    "lon": "121.5277078",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "7號, 齊東街70巷, 幸福里, 中正區, 華山, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "7號",
+     "road": "齊東街70巷",
+     "neighbourhood": "幸福里",
+     "suburb": "中正區",
+     "village": "華山",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0426496",
+     "25.0427496",
+     "121.5276578",
+     "121.5277578"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "重陽路 366號",
+  "truth": {
+   "road": "重陽路",
+   "lat": "25.0587107",
+   "lon": "121.6091978"
+  },
+  "result": [
+   {
+    "place_id": 229851737,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830165298,
+    "lat": "25.0586704",
+    "lon": "121.6091658",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "366號, 重陽路, 南港里, 南港區, 三重埔, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "366號",
+     "road": "重陽路",
+     "neighbourhood": "南港里",
+     "suburb": "南港區",
+     "village": "三重埔",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0586204",
+     "25.0587204",
+     "121.6091158",
+     "121.6092158"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "南京西路155巷 6號",
+  "truth": {
+   "road": "南京西路155巷",
+   "lat": "25.0543345",
+   "lon": "121.5134436"
+  },
+  "result": [
+   {
+    "place_id": 229220876,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10908233205,
+    "lat": "25.0543345",
+    "lon": "121.5134436",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "6號, 南京西路155巷, 朝陽里, 大同區, 後車頭, 臺北市, 103, 臺灣",
+    "address": {
+     "house_number": "6號",
+     "road": "南京西路155巷",
+     "neighbourhood": "朝陽里",
+     "suburb": "大同區",
+     "village": "後車頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "103",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0542845",
+     "25.0543845",
+     "121.5133936",
+     "121.5134936"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "基河路 252號",
+  "truth": {
+   "road": "基河路",
+   "lat": "25.0913960",
+   "lon": "121.5203774"
+  },
+  "result": [
+   {
+    "place_id": 230597603,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910748414,
+    "lat": "25.0913960",
+    "lon": "121.5203774",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "252號, 基河路, 福德里, 士林區, 社子, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "252號",
+     "road": "基河路",
+     "neighbourhood": "福德里",
+     "suburb": "士林區",
+     "village": "社子",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0913460",
+     "25.0914460",
+     "121.5203274",
+     "121.5204274"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "景豐街48巷 9之3號",
+  "truth": {
+   "road": "景豐街48巷",
+   "lat": "25.0003639",
+   "lon": "121.5464534"
+  },
+  "result": [
+   {
+    "place_id": 230359867,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10777448222,
+    "lat": "25.0003639",
+    "lon": "121.5464534",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "9之3號, 景豐街48巷, 興豐里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "9之3號",
+     "road": "景豐街48巷",
+     "neighbourhood": "興豐里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0003139",
+     "25.0004139",
+     "121.5464034",
+     "121.5465034"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "大度路 臨31號",
+  "truth": {
+   "road": "大度路",
+   "lat": "25.1204319",
+   "lon": "121.4960572"
+  },
+  "result": [
+   {
+    "place_id": 231251135,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910852137,
+    "lat": "25.1210012",
+    "lon": "121.4962259",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "臨31號, 大度路, 八仙里, 北投區, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "臨31號",
+     "road": "大度路",
+     "neighbourhood": "八仙里",
+     "suburb": "北投區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1209512",
+     "25.1210512",
+     "121.4961759",
+     "121.4962759"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "仰德大道二段2巷 20號",
+  "truth": {
+   "road": "仰德大道二段2巷",
+   "lat": "25.1015039",
+   "lon": "121.5407486"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "信義路四段 170號",
+  "truth": {
+   "road": "信義路四段",
+   "lat": "25.0329787",
+   "lon": "121.5509260"
+  },
+  "result": [
+   {
+    "place_id": 230356807,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826520215,
+    "lat": "25.0330330",
+    "lon": "121.5508338",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "170號, 信義路四段, 義安里, 大安區, 車罾, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "170號",
+     "road": "信義路四段",
+     "neighbourhood": "義安里",
+     "suburb": "大安區",
+     "village": "車罾",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0329830",
+     "25.0330830",
+     "121.5507838",
+     "121.5508838"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "研究院路四段 84號",
+  "truth": {
+   "road": "研究院路四段",
+   "lat": "25.0246457",
+   "lon": "121.5970695"
+  },
+  "result": [
+   {
+    "place_id": 229876966,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830180069,
+    "lat": "25.0246457",
+    "lon": "121.5970695",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "84號, 研究院路四段, 九如里, 南港區, 麗山里, 臺北市, 115, 臺灣",
+    "address": {
+     "house_number": "84號",
+     "road": "研究院路四段",
+     "neighbourhood": "九如里",
+     "suburb": "南港區",
+     "village": "麗山里",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "115",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0245957",
+     "25.0246957",
+     "121.5970195",
+     "121.5971195"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "臨沂街75巷 4號",
+  "truth": {
+   "road": "臨沂街75巷",
+   "lat": "25.0346685",
+   "lon": "121.5286113"
+  },
+  "result": [
+   {
+    "place_id": 230684379,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826549296,
+    "lat": "25.0347280",
+    "lon": "121.5281625",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "4號, 臨沂街75巷, 三愛里, 中正區, 華山, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "4號",
+     "road": "臨沂街75巷",
+     "neighbourhood": "三愛里",
+     "suburb": "中正區",
+     "village": "華山",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0346780",
+     "25.0347780",
+     "121.5281125",
+     "121.5282125"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "指南路三段33巷 31號",
+  "truth": {
+   "road": "指南路三段33巷",
+   "lat": "24.9816949",
+   "lon": "121.5848051"
+  },
+  "result": [
+   {
+    "place_id": 230085249,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785109233,
+    "lat": "24.9816949",
+    "lon": "121.5848051",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "31號, 指南路三段33巷, 指南里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "31號",
+     "road": "指南路三段33巷",
+     "neighbourhood": "指南里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9816449",
+     "24.9817449",
+     "121.5847551",
+     "121.5848551"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "新光路二段74巷 14號",
+  "truth": {
+   "road": "新光路二段74巷",
+   "lat": "24.9826461",
+   "lon": "121.5982972"
+  },
+  "result": [
+   {
+    "place_id": 230312067,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785112189,
+    "lat": "24.9826461",
+    "lon": "121.5982972",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 6.715571831841028e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "14號, 新光路二段74巷, 政大里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "14號",
+     "road": "新光路二段74巷",
+     "neighbourhood": "政大里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9825961",
+     "24.9826961",
+     "121.5982472",
+     "121.5983472"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "景華街 15;17;19;21;23;25;27;29;31;33;35;37;39;41;43;45;47;1號",
+  "truth": {
+   "road": "景華街",
+   "lat": "24.9951909",
+   "lon": "121.5425715"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "新安路 121號",
+  "truth": {
+   "road": "新安路",
+   "lat": "25.1258183",
+   "lon": "121.5564173"
+  },
+  "result": [
+   {
+    "place_id": 231961919,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910762439,
+    "lat": "25.1258183",
+    "lon": "121.5564173",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "121號, 新安路, 新安里, 士林區, 草山, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "121號",
+     "road": "新安路",
+     "neighbourhood": "新安里",
+     "suburb": "士林區",
+     "village": "草山",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1257683",
+     "25.1258683",
+     "121.5563673",
+     "121.5564673"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "羅斯福路三段 233;235;237號",
+  "truth": {
+   "road": "羅斯福路三段",
+   "lat": "25.0195059",
+   "lon": "121.5298734"
+  },
+  "result": []
+ },
+ {
+  "set": "reverse",
+  "query": "八德路三段12巷62弄 4號",
+  "truth": {
+   "road": "八德路三段12巷62弄",
+   "lat": "25.0458430",
+   "lon": "121.5503230"
+  },
+  "result": [
+   {
+    "place_id": 227908479,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10831541676,
+    "lat": "25.0458430",
+    "lon": "121.5503230",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "4號, 八德路三段12巷62弄, 敦化社區, 敦化里, 松山區, 中崙, 臺北市, 105, 臺灣",
+    "address": {
+     "house_number": "4號",
+     "road": "八德路三段12巷62弄",
+     "residential": "敦化社區",
+     "neighbourhood": "敦化里",
+     "suburb": "松山區",
+     "village": "中崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "105",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0457930",
+     "25.0458930",
+     "121.5502730",
+     "121.5503730"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "興隆路二段233巷6弄 2之1號",
+  "truth": {
+   "road": "興隆路二段233巷6弄",
+   "lat": "25.0021691",
+   "lon": "121.5506416"
+  },
+  "result": [
+   {
+    "place_id": 227697911,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10777439635,
+    "lat": "25.0021691",
+    "lon": "121.5506416",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "2之1號, 興隆路二段233巷6弄, 興邦里, 文山區, 萬隆, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "2之1號",
+     "road": "興隆路二段233巷6弄",
+     "neighbourhood": "興邦里",
+     "suburb": "文山區",
+     "village": "萬隆",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0021191",
+     "25.0022191",
+     "121.5505916",
+     "121.5506916"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "大湖山莊街23巷 12號",
+  "truth": {
+   "road": "大湖山莊街23巷",
+   "lat": "25.0845823",
+   "lon": "121.6031194"
+  },
+  "result": [
+   {
+    "place_id": 229475730,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10907285991,
+    "lat": "25.0864184",
+    "lon": "121.6033353",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "12號, 大湖山莊街23巷, 大湖山莊, 大湖里, 內湖區, 五分, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "12號",
+     "road": "大湖山莊街23巷",
+     "residential": "大湖山莊",
+     "neighbourhood": "大湖里",
+     "suburb": "內湖區",
+     "village": "五分",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0863684",
+     "25.0864684",
+     "121.6032853",
+     "121.6033853"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "愛國東路 35號",
+  "truth": {
+   "road": "愛國東路",
+   "lat": "25.0322261",
+   "lon": "121.5263203"
+  },
+  "result": [
+   {
+    "place_id": 231163519,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826579933,
+    "lat": "25.0320077",
+    "lon": "121.5263234",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "35號, 愛國東路, 光明里, 大安區, 古亭, 臺北市, 106, 臺灣",
+    "address": {
+     "house_number": "35號",
+     "road": "愛國東路",
+     "neighbourhood": "光明里",
+     "suburb": "大安區",
+     "village": "古亭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "106",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0319577",
+     "25.0320577",
+     "121.5262734",
+     "121.5263734"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "中央南路一段225巷 2號",
+  "truth": {
+   "road": "中央南路一段225巷",
+   "lat": "25.1276780",
+   "lon": "121.5009524"
+  },
+  "result": [
+   {
+    "place_id": 231201942,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10911103987,
+    "lat": "25.1276780",
+    "lon": "121.5009524",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "2號, 中央南路一段225巷, 清江里, 北投區, 奇岩, 臺北市, 112, 臺灣",
+    "address": {
+     "house_number": "2號",
+     "road": "中央南路一段225巷",
+     "neighbourhood": "清江里",
+     "suburb": "北投區",
+     "village": "奇岩",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "112",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1276280",
+     "25.1277280",
+     "121.5009024",
+     "121.5010024"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "萬壽路 67之3號",
+  "truth": {
+   "road": "萬壽路",
+   "lat": "24.9779868",
+   "lon": "121.5978377"
+  },
+  "result": [
+   {
+    "place_id": 228320672,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10785109601,
+    "lat": "24.9779868",
+    "lon": "121.5978377",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 6.715571831841028e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "67之3號, 萬壽路, 政大里, 文山區, 臺北市, 116, 臺灣",
+    "address": {
+     "house_number": "67之3號",
+     "road": "萬壽路",
+     "neighbourhood": "政大里",
+     "suburb": "文山區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "116",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "24.9779368",
+     "24.9780368",
+     "121.5977877",
+     "121.5978877"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "至善路三段 104號",
+  "truth": {
+   "road": "至善路三段",
+   "lat": "25.1131540",
+   "lon": "121.5676255"
+  },
+  "result": [
+   {
+    "place_id": 233899770,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910764627,
+    "lat": "25.1131540",
+    "lon": "121.5676255",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "104號, 至善路三段, 溪山里, 士林區, 平等頭, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "104號",
+     "road": "至善路三段",
+     "neighbourhood": "溪山里",
+     "suburb": "士林區",
+     "village": "平等頭",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.1131040",
+     "25.1132040",
+     "121.5675755",
+     "121.5676755"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "安康路 266號",
+  "truth": {
+   "road": "安康路",
+   "lat": "25.0634664",
+   "lon": "121.6046819"
+  },
+  "result": [
+   {
+    "place_id": 229109801,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845406946,
+    "lat": "25.0634664",
+    "lon": "121.6046819",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "266號, 安康路, 蘆洲里, 內湖區, 五分, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "266號",
+     "road": "安康路",
+     "neighbourhood": "蘆洲里",
+     "suburb": "內湖區",
+     "village": "五分",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0634164",
+     "25.0635164",
+     "121.6046319",
+     "121.6047319"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "內湖路一段 550號",
+  "truth": {
+   "road": "內湖路一段",
+   "lat": "25.0787963",
+   "lon": "121.5768051"
+  },
+  "result": [
+   {
+    "place_id": 232629723,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845365837,
+    "lat": "25.0788022",
+    "lon": "121.5766959",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "550號, 內湖路一段, 港墘里, 內湖區, 臺北市, 114, 臺灣",
+    "address": {
+     "house_number": "550號",
+     "road": "內湖路一段",
+     "neighbourhood": "港墘里",
+     "suburb": "內湖區",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "114",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0787522",
+     "25.0788522",
+     "121.5766459",
+     "121.5767459"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "民生東路五段 245號",
+  "truth": {
+   "road": "民生東路五段",
+   "lat": "25.0593434",
+   "lon": "121.5679091"
+  },
+  "result": [
+   {
+    "place_id": 227371678,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10845435338,
+    "lat": "25.0593434",
+    "lon": "121.5679091",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "245號, 民生東路五段, 新東里, 松山區, 潭美, 臺北市, 105, 臺灣",
+    "address": {
+     "house_number": "245號",
+     "road": "民生東路五段",
+     "neighbourhood": "新東里",
+     "suburb": "松山區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "105",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0592934",
+     "25.0593934",
+     "121.5678591",
+     "121.5679591"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "松江路63巷 1號",
+  "truth": {
+   "road": "松江路63巷",
+   "lat": "25.0490112",
+   "lon": "121.5335197"
+  },
+  "result": [
+   {
+    "place_id": 227959092,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826451825,
+    "lat": "25.0490112",
+    "lon": "121.5335197",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 松江路63巷, 朱園里, 中山區, 朱厝崙, 臺北市, 104, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "松江路63巷",
+     "neighbourhood": "朱園里",
+     "suburb": "中山區",
+     "village": "朱厝崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "104",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0489612",
+     "25.0490612",
+     "121.5334697",
+     "121.5335697"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "虎林街56巷 31號",
+  "truth": {
+   "road": "虎林街56巷",
+   "lat": "25.0465912",
+   "lon": "121.5757747"
+  },
+  "result": [
+   {
+    "place_id": 227532503,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10830274361,
+    "lat": "25.0465912",
+    "lon": "121.5757747",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "31號, 虎林街56巷, 四育里, 信義區, 潭美, 臺北市, 110, 臺灣",
+    "address": {
+     "house_number": "31號",
+     "road": "虎林街56巷",
+     "neighbourhood": "四育里",
+     "suburb": "信義區",
+     "village": "潭美",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "110",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0465412",
+     "25.0466412",
+     "121.5757247",
+     "121.5758247"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "基河路 132號",
+  "truth": {
+   "road": "基河路",
+   "lat": "25.0888392",
+   "lon": "121.5225171"
+  },
+  "result": [
+   {
+    "place_id": 228174359,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10910752110,
+    "lat": "25.0888392",
+    "lon": "121.5225171",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "132號, 基河路, 義信里, 士林區, 社子, 臺北市, 111, 臺灣",
+    "address": {
+     "house_number": "132號",
+     "road": "基河路",
+     "neighbourhood": "義信里",
+     "suburb": "士林區",
+     "village": "社子",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "111",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0887892",
+     "25.0888892",
+     "121.5224671",
+     "121.5225671"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "南京東路三段269巷 1號",
+  "truth": {
+   "road": "南京東路三段269巷",
+   "lat": "25.0527656",
+   "lon": "121.5452619"
+  },
+  "result": [
+   {
+    "place_id": 230863716,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10831522321,
+    "lat": "25.0527656",
+    "lon": "121.5452619",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 南京東路三段269巷, 中正里, 松山區, 中崙, 臺北市, 105, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "南京東路三段269巷",
+     "neighbourhood": "中正里",
+     "suburb": "松山區",
+     "village": "中崙",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "105",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0527156",
+     "25.0528156",
+     "121.5452119",
+     "121.5453119"
+    ]
+   }
+  ]
+ },
+ {
+  "set": "reverse",
+  "query": "常德街 1號",
+  "truth": {
+   "road": "常德街",
+   "lat": "25.0419950",
+   "lon": "121.5180943"
+  },
+  "result": [
+   {
+    "place_id": 230534210,
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "node",
+    "osm_id": 10826554187,
+    "lat": "25.0414109",
+    "lon": "121.5171907",
+    "category": "place",
+    "type": "house",
+    "place_rank": 30,
+    "importance": 7.457007705801507e-05,
+    "addresstype": "place",
+    "name": "",
+    "display_name": "1號, 常德街, 黎明里, 中正區, 城內, 臺北市, 100, 臺灣",
+    "address": {
+     "house_number": "1號",
+     "road": "常德街",
+     "neighbourhood": "黎明里",
+     "suburb": "中正區",
+     "village": "城內",
+     "city": "臺北市",
+     "ISO3166-2-lvl4": "TW-TPE",
+     "postcode": "100",
+     "country": "臺灣",
+     "country_code": "tw"
+    },
+    "namedetails": null,
+    "boundingbox": [
+     "25.0413609",
+     "25.0414609",
+     "121.5171407",
+     "121.5172407"
+    ]
+   }
+  ]
+ }
+]
