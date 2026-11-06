@@ -1,0 +1,1 @@
+{"answer": "起點是 307，不在台北市範圍內，無法查詢。", "origin": null, "reach": null, "tool_calls": [{"name": "reach", "args": {"place": "307", "destination": "重慶南路"}}]}

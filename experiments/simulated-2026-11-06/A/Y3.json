@@ -1,0 +1,1 @@
+{"answer": "查不到這個地點，請換個名稱。", "origin": null, "reach": null, "tool_calls": [{"name": "reach", "args": {"place": "中山站"}}]}

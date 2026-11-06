@@ -1,0 +1,1 @@
+{"answer": "對於從「桃園機場」出發的查詢，查不到結果：\n「臺灣桃園國際機場」不在台北市範圍內，無法查詢。", "origin": null, "reach": null, "tool_calls": [{"name": "reach", "args": {"place": "桃園機場", "destination": "台北101"}}]}

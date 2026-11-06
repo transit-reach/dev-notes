@@ -1,0 +1,101 @@
+X1   ✓ llm     7.1s 2 次  12084 tok  
+X2   ✓ llm     5.6s 2 次  40556 tok  
+X3   ✗ llm     4.9s 2 次   6697 tok  transport None≠bus（舊版沒有這個參數）
+X4   ✗ llm     6.9s 2 次  46873 tok  intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）
+X5   ✗ llm     4.3s 2 次   2515 tok  transport None≠bus（舊版沒有這個參數）
+X6   ✗ llm     3.7s 2 次   2433 tok  intent destination≠category；category None≠百貨商場；destination 百貨公司≠None
+X7   ✗ llm     6.2s 2 次  13107 tok  不該查詢
+X8   ✗ llm     3.7s 2 次   4965 tok  transport None≠bus（舊版沒有這個參數）
+X9   ✓ llm     5.1s 2 次   5205 tok  
+X10  ✗ llm     3.1s 2 次   2319 tok  intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）；起點沒有定位
+X11  ✗ llm     4.6s 2 次   4469 tok  transport None≠bus（舊版沒有這個參數）
+X12  ✗ llm     4.7s 2 次   3521 tok  transport None≠bus（舊版沒有這個參數）
+X13  ✗ llm     3.5s 1 次   1132 tok  結果是 answered
+X14  ✗ llm     5.9s 2 次  52193 tok  intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）
+X15  ✗ llm     1.8s 1 次   1130 tok  transport None≠bus（舊版沒有這個參數）；起點差 12568 m
+X16  ✗ llm     3.9s 2 次   2295 tok  transport None≠bus（舊版沒有這個參數）；起點沒有定位
+X17  ✗ llm     2.6s 1 次   1133 tok  起點差 4376 m
+X18  ✗ llm     5.7s 2 次  47366 tok  intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）
+X19  ✗ llm     3.2s 2 次   2628 tok  transport None≠bus（舊版沒有這個參數）
+X20  ✗ llm     6.2s 1 次   1124 tok  transport None≠bus（舊版沒有這個參數）；起點差 616 m
+X21  ✗ llm     3.4s 2 次   3000 tok  transport None≠bus（舊版沒有這個參數）；起點差 826 m
+X22  ✗ llm     9.5s 2 次  10879 tok  transport None≠metro（舊版沒有這個參數）
+X23  ✗ llm     3.7s 2 次   2398 tok  transport None≠bus（舊版沒有這個參數）
+X24  ✗ llm     3.2s 2 次   2776 tok  不該查詢
+X25  ✗ llm     3.3s 2 次   2414 tok  intent category≠nearby（舊版沒有這個參數）；transport None≠bus（舊版沒有這個參數）；category 交通≠None
+X26  ✗ llm     2.2s 1 次   1152 tok  結果是 no_tool
+X27  ✗ llm     2.1s 2 次   2333 tok  不該查詢
+X28  ✓ llm     2.5s 2 次   2426 tok  
+X29  ✓ llm     3.3s 2 次   2332 tok  
+X30  ✗ llm     3.7s 2 次   2423 tok  不該查詢
+Y1   ✓ llm     1.8s 1 次   1123 tok  
+Y2   ✗ llm     3.1s 2 次   2404 tok  transport None≠bus（舊版沒有這個參數）
+Y3   ✗ llm     2.6s 2 次   2299 tok  起點沒有定位
+Y4   ✓ llm     4.1s 2 次   3513 tok  
+Y5   ✓ llm     1.8s 2 次   2426 tok  
+Y6   ✓ llm     7.8s 2 次   6561 tok  
+Y7   ✓ llm     3.1s 2 次   2889 tok  
+Y8   ✗ llm     3.4s 2 次   2925 tok  transport None≠bus（舊版沒有這個參數）；起點差 826 m
+Y9   ✓ llm     2.5s 2 次   2382 tok  
+Y10  ✓ llm     2.6s 2 次   2493 tok  
+Y11  ✓ llm     2.9s 2 次   2378 tok  
+Y12  ✓ llm     3.6s 2 次   2980 tok  
+Y13  ✓ llm     2.2s 2 次   2353 tok  
+Y14  ✓ llm     2.8s 2 次   2416 tok  
+Y15  ✓ llm     2.5s 2 次   2512 tok  
+Y16  ✓ llm     2.6s 2 次   3185 tok  
+Y17  ✗ llm     2.0s 2 次   2277 tok  起點沒有定位
+Y18  ✗ llm     1.4s 1 次   1116 tok  transport None≠bus（舊版沒有這個參數）；起點差 12568 m
+Y19  ✓ llm     3.4s 2 次   2423 tok  
+Y20  ✓ llm     2.3s 2 次   2344 tok  
+Y21  ✓ llm     1.9s 2 次   2526 tok  
+Y22  ✗ llm     3.6s 2 次   3149 tok  起點差 5116 m
+Y23  ✗ llm     2.4s 2 次   2313 tok  起點沒有定位
+Y24  ✗ llm     3.4s 2 次   3940 tok  transport None≠bus（舊版沒有這個參數）
+Y25  ✓ llm     6.0s 2 次  66658 tok  
+Y26  ✗ llm     0.9s 1 次   1120 tok  沒有解析出參數（no_tool）
+Y27  ✗ llm     4.0s 2 次   2524 tok  不該查詢
+Y28  ✓ llm     2.6s 2 次   2346 tok  
+Y29  ✗ llm     2.8s 2 次  10580 tok  不該查詢
+Y30  ✓ llm     1.0s 1 次   1113 tok  
+
+全部：60 題，正確 24（40%），耗時中位數 3.3s、最大 9.5s，Gemini 111 次、token 合計 435146（每題平均 7252），不用 LLM 0 題，Gemini 5xx 整題重跑 0 次
+simulated：30 題，正確 5（17%），耗時中位數 3.7s、最大 9.5s，Gemini 55 次、token 合計 285878（每題平均 9529），不用 LLM 0 題，Gemini 5xx 整題重跑 0 次
+simulated_short：30 題，正確 19（63%），耗時中位數 2.6s、最大 7.8s，Gemini 56 次、token 合計 149268（每題平均 4976），不用 LLM 0 題，Gemini 5xx 整題重跑 0 次
+  ✗ X3 松山車站搭公車直達的景點有啥：transport None≠bus（舊版沒有這個參數）  {'category': '景點', 'place': '松山車站'}
+  ✗ X4 我住北投，想知道捷運不轉車可以到哪幾站附近：intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）  {'place': '北投'}
+  ✗ X5 從台大正門出發，有沒有公車可以直達西門町？：transport None≠bus（舊版沒有這個參數）  {'destination': '西門町', 'place': '台大正門'}
+  ✗ X6 忠孝復興到不用轉車能到的百貨公司有哪些：intent destination≠category；category None≠百貨商場；destination 百貨公司≠None  {'destination': '百貨公司', 'place': '忠孝復興', 'category': '景點'}
+  ✗ X7 信義區市政府站可以直接搭捷運去哪裡吃東西：不該查詢  {'place': '市政府站', 'category': '夜市'}
+  ✗ X8 我媽住萬芳醫院，想知道搭公車不換車能到哪些醫院：transport None≠bus（舊版沒有這個參數）  {'place': '萬芳醫院', 'category': '醫院'}
+  ✗ X10 中山站搭捷運直達的站有哪些？幫我列一下：intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）；起點沒有定位  {'place': '中山站'}
+  ✗ X11 景美夜市附近有沒有公車可以直接到公館的：transport None≠bus（舊版沒有這個參數）  {'place': '景美夜市', 'destination': '公館'}
+  ✗ X12 民生社區這邊搭公車能不轉車到台北車站嗎：transport None≠bus（舊版沒有這個參數）  {'place': '民生社區', 'destination': '台北車站'}
+  ✗ X13 我在輔大附近，要去台北市區有沒有直達的捷運或公車：結果是 answered  {'destination': '台北市區', 'place': '輔大'}
+  ✗ X14 從大安森林公園站可以不換線到哪些地方？：intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）  {'place': '大安森林公園站'}
+  ✗ X15 明天要去故宮，從圓山站有沒有公車一班到底的：transport None≠bus（舊版沒有這個參數）；起點差 12568 m  {'place': '圓山站', 'destination': '故宮'}
+  ✗ X16 內湖科學園區下班，想搭公車直接到南京復興附近：transport None≠bus（舊版沒有這個參數）；起點沒有定位  {'destination': '南京復興', 'place': '內湖科學園區'}
+  ✗ X17 從龍山寺站出發，不用轉車能到哪些親子景點？：起點差 4376 m  {'category': '景點', 'place': '龍山寺站'}
+  ✗ X18 我剛搬來台北，從永春站搭捷運不轉車可以去哪裡啊？：intent overview≠metro_only（舊版沒有這個參數）；transport None≠metro（舊版沒有這個參數）  {'place': '永春站'}
+  ✗ X19 北車到台北小巨蛋有直達的公車嗎？不想走太多路：transport None≠bus（舊版沒有這個參數）  {'place': '台北車站', 'destination': '台北小巨蛋'}
+  ✗ X20 從台北市立動物園搭公車可以直達哪些地方？帶小孩：transport None≠bus（舊版沒有這個參數）；起點差 616 m  {'place': '台北市立動物園'}
+  ✗ X21 我在榮總，搭公車不用轉車能到石牌站嗎：transport None≠bus（舊版沒有這個參數）；起點差 826 m  {'destination': '石牌站', 'place': '榮總'}
+  ✗ X22 古亭站可以直接搭捷運到哪些大學附近？：transport None≠metro（舊版沒有這個參數）  {'place': '古亭站', 'category': '大學'}
+  ✗ X23 西門町附近有沒有公車可以直達迪化街？：transport None≠bus（舊版沒有這個參數）  {'destination': '迪化街', 'place': '西門町'}
+  ✗ X24 從台北101搭捷運不換車能到哪些溫泉區？：不該查詢  {'destination': '溫泉', 'place': '台北101', 'category': '景點'}
+  ✗ X25 我在台北醫學大學，附近有哪些公車路線可以直達捷運站？：intent category≠nearby（舊版沒有這個參數）；transport None≠bus（舊版沒有這個參數）；category 交通≠None  {'category': '交通', 'place': '台北醫學大學'}
+  ✗ X26 從淡水到台北101怎麼搭最快？可以接受轉車：結果是 no_tool  None
+  ✗ X27 幫我查一下現在公車 307 還要等幾分鐘到重慶南路：不該查詢  {'place': '307', 'destination': '重慶南路'}
+  ✗ X30 從中正紀念堂到信義區哪間餐廳最好吃？：不該查詢  {'destination': '信義區', 'place': '中正紀念堂'}
+  ✗ Y2 北車直達動物園公車：transport None≠bus（舊版沒有這個參數）  {'place': '北車', 'destination': '動物園'}
+  ✗ Y3 中山站可以直達哪些地方：起點沒有定位  {'place': '中山站'}
+  ✗ Y8 榮總到台北車站公車：transport None≠bus（舊版沒有這個參數）；起點差 826 m  {'destination': '台北車站', 'place': '榮總'}
+  ✗ Y17 內湖科學園區到松山機場：起點沒有定位  {'destination': '松山機場', 'place': '內湖科學園區'}
+  ✗ Y18 圓山站搭公車可以去哪：transport None≠bus（舊版沒有這個參數）；起點差 12568 m  {'place': '圓山站'}
+  ✗ Y22 北醫到市政府不用換車：起點差 5116 m  {'destination': '市政府', 'place': '北醫'}
+  ✗ Y23 和平醫院到台大不用轉車：起點沒有定位  {'place': '和平醫院', 'destination': '台大'}
+  ✗ Y24 台北車站到美麗華直達公車：transport None≠bus（舊版沒有這個參數）  {'place': '台北車站', 'destination': '美麗華'}
+  ✗ Y26 台北車站到九份怎麼搭最快：沒有解析出參數（no_tool）  None
+  ✗ Y27 內湖到西門現在公車還有幾分鐘：不該查詢  {'destination': '西門', 'place': '內湖'}
+  ✗ Y29 台北哪裡有好吃的牛肉麵：不該查詢  {'category': '景點', 'place': '台北車站'}
+A exit 0

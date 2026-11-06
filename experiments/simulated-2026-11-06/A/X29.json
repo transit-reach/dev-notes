@@ -1,0 +1,1 @@
+{"answer": "查不到這個地點，因為桃園機場不在台北市範圍內，無法查詢。", "origin": null, "reach": null, "tool_calls": [{"name": "reach", "args": {"place": "桃園機場", "destination": "北投"}}]}
