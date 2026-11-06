@@ -1,0 +1,138 @@
+{"event": "ask", "question": "台北車站不用轉車可以直接到哪些夜市啊？", "args": {"place": "台北車站", "category": "夜市", "intent": "category"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 42, "locate": 36, "query": 285, "total": 363}, "outcome": "answered"}
+X1   ✓ rule    0.4s 0 次      0 tok  
+{"event": "ask", "question": "從師大要去可以不用換車到的地方有哪些？想晃晃", "args": {"place": "師大", "intent": "overview"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1418, "output": 21, "total": 1439}, "ms": {"parse": 60, "llm": 1332, "locate": 35, "query": 244, "total": 1744}, "outcome": "answered"}
+X2   ✓ llm     1.7s 1 次   1439 tok  
+{"event": "ask", "question": "松山車站搭公車直達的景點有啥", "args": {"place": "松山車站", "transport": "bus", "category": "景點", "intent": "category"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1416, "output": 35, "total": 1451}, "ms": {"parse": 40, "llm": 1059, "locate": 39, "query": 238, "total": 1395}, "outcome": "answered"}
+X3   ✓ llm     1.4s 1 次   1451 tok  
+{"event": "ask", "question": "我住北投，想知道捷運不轉車可以到哪幾站附近", "args": {"place": "北投", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 23, "total": 1444}, "ms": {"parse": 65, "llm": 1362, "locate": 36, "query": 233, "total": 1716}, "outcome": "answered"}
+X4   ✓ llm     1.7s 1 次   1444 tok  
+{"event": "ask", "question": "從台大正門出發，有沒有公車可以直達西門町？", "args": {"destination": "西門町", "place": "台大正門", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 31, "total": 1452}, "ms": {"parse": 60, "llm": 1742, "locate": 312, "query": 259, "total": 2391}, "outcome": "answered"}
+X5   ✗ llm     2.4s 1 次   1452 tok  transport None≠bus
+{"event": "ask", "question": "忠孝復興到不用轉車能到的百貨公司有哪些", "args": {"place": "捷運忠孝復興站", "category": "百貨商場", "intent": "category"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1416, "output": 34, "total": 1450}, "ms": {"parse": 61, "llm": 1329, "locate": 35, "query": 219, "total": 1664}, "outcome": "answered"}
+X6   ✓ llm     1.7s 1 次   1450 tok  
+{"event": "ask", "question": "信義區市政府站可以直接搭捷運去哪裡吃東西", "args": {"place": "捷運市政府站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1417, "output": 29, "total": 1446}, "ms": {"parse": 59, "llm": 979, "locate": 36, "query": 213, "total": 1305}, "outcome": "answered"}
+X7   ✗ llm     1.3s 1 次   1446 tok  不該查詢
+{"event": "ask", "question": "我媽住萬芳醫院，想知道搭公車不換車能到哪些醫院", "args": {"transport": "bus", "category": "醫院", "place": "萬芳醫院", "intent": "category"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1422, "output": 34, "total": 1456}, "ms": {"parse": 61, "llm": 1140, "locate": 35, "query": 223, "total": 1479}, "outcome": "answered"}
+X8   ✓ llm     1.5s 1 次   1456 tok  
+{"event": "ask", "question": "從南港展覽館出發，不轉車可以到哪些觀光景點？", "args": {"category": "景點", "place": "南港展覽館", "intent": "category"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1423, "output": 31, "total": 1454}, "ms": {"parse": 35, "llm": 1242, "locate": 34, "query": 222, "total": 1552}, "outcome": "answered"}
+X9   ✓ llm     1.6s 1 次   1454 tok  
+{"event": "ask", "question": "中山站搭捷運直達的站有哪些？幫我列一下", "args": {"place": "捷運中山站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1418, "output": 25, "total": 1443}, "ms": {"parse": 37, "llm": 1137, "locate": 37, "query": 246, "total": 1477}, "outcome": "answered"}
+X10  ✓ llm     1.5s 1 次   1443 tok  
+{"event": "ask", "question": "景美夜市附近有沒有公車可以直接到公館的", "args": {"destination": "公館", "place": "景美夜市", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1416, "output": 30, "total": 1446}, "ms": {"parse": 37, "llm": 1026, "locate": 36, "query": 224, "total": 1340}, "outcome": "answered"}
+X11  ✗ llm     1.3s 1 次   1446 tok  transport None≠bus
+{"event": "ask", "question": "民生社區這邊搭公車能不轉車到台北車站嗎", "args": {"transport": "bus", "destination": "台北車站", "place": "民生社區", "intent": "destination"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2889, "output": 70, "total": 2959}, "ms": {"parse": 61, "llm": 2127, "locate": 316, "query": 227, "total": 2749}, "outcome": "answered"}
+X12  ✓ llm     2.7s 2 次   2959 tok  
+{"event": "ask", "question": "我在輔大附近，要去台北市區有沒有直達的捷運或公車", "args": {"destination": "台北市區", "place": "輔大", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 29, "total": 1450}, "ms": {"parse": 34, "llm": 629, "locate": 35, "query": 202, "total": 920}, "outcome": "answered"}
+X13  ✗ llm     0.9s 1 次   1450 tok  結果是 answered
+{"event": "ask", "question": "從大安森林公園站可以不換線到哪些地方？", "args": {"place": "捷運大安森林公園站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1417, "output": 32, "total": 1449}, "ms": {"parse": 34, "llm": 910, "locate": 34, "query": 211, "total": 1208}, "outcome": "answered"}
+X14  ✓ llm     1.2s 1 次   1449 tok  
+{"event": "ask", "question": "明天要去故宮，從圓山站有沒有公車一班到底的", "args": {"destination": "故宮", "place": "捷運圓山站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 31, "total": 1450}, "ms": {"parse": 60, "llm": 1158, "locate": 36, "query": 243, "total": 1516}, "outcome": "answered"}
+X15  ✗ llm     1.5s 1 次   1450 tok  transport None≠bus
+{"event": "ask", "question": "內湖科學園區下班，想搭公車直接到南京復興附近", "args": {"transport": "bus", "place": "內湖科學園區", "destination": "南京復興", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 38, "total": 1459}, "ms": {"parse": 65, "llm": 1129, "locate": 321, "total": 1534}, "outcome": "not_found"}
+X16  ✗ llm     1.5s 1 次   1459 tok  起點沒有定位
+{"event": "ask", "question": "從龍山寺站出發，不用轉車能到哪些親子景點？", "args": {"place": "捷運龍山寺站", "destination": "親子景點", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 40, "total": 1461}, "ms": {"parse": 34, "llm": 2038, "locate": 34, "query": 244, "total": 2367}, "outcome": "answered"}
+X17  ✗ llm     2.4s 1 次   1461 tok  intent destination≠category；category None≠景點；destination 親子景點≠None
+{"event": "ask", "question": "我剛搬來台北，從永春站搭捷運不轉車可以去哪裡啊？", "args": {"place": "捷運永春站", "intent": "metro_only", "transport": "metro"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2907, "output": 80, "total": 2987}, "ms": {"parse": 60, "llm": 2343, "locate": 35, "query": 226, "total": 2683}, "outcome": "answered"}
+X18  ✓ llm     2.7s 2 次   2987 tok  
+{"event": "ask", "question": "北車到台北小巨蛋有直達的公車嗎？不想走太多路", "args": {"transport": "bus", "place": "台北車站", "destination": "台北小巨蛋", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1422, "output": 36, "total": 1458}, "ms": {"parse": 54, "llm": 754, "locate": 36, "query": 291, "total": 1155}, "outcome": "answered"}
+X19  ✓ llm     1.2s 1 次   1458 tok  
+{"event": "ask", "question": "從台北市立動物園搭公車可以直達哪些地方？帶小孩", "args": {"place": "台北市立動物園", "transport": "bus", "intent": "overview"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1419, "output": 29, "total": 1448}, "ms": {"parse": 40, "llm": 1206, "locate": 35, "query": 224, "total": 1525}, "outcome": "answered"}
+X20  ✓ llm     1.5s 1 次   1448 tok  
+{"event": "ask", "question": "我在榮總，搭公車不用轉車能到石牌站嗎", "args": {"place": "榮總", "transport": "bus", "destination": "石牌站", "intent": "destination"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 37, "locate": 35, "query": 227, "total": 299}, "outcome": "answered"}
+X21  ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "古亭站可以直接搭捷運到哪些大學附近？", "args": {"place": "古亭站", "transport": "metro", "category": "大學", "intent": "category"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 37, "locate": 36, "query": 249, "total": 322}, "outcome": "answered"}
+X22  ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "西門町附近有沒有公車可以直達迪化街？", "args": {"place": "西門町", "transport": "bus", "destination": "迪化街", "intent": "destination"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 42, "locate": 38, "query": 318, "total": 397}, "outcome": "answered"}
+X23  ✓ rule    0.4s 0 次      0 tok  
+{"event": "ask", "question": "從台北101搭捷運不換車能到哪些溫泉區？", "args": {"place": "台北101", "transport": "metro", "destination": "溫泉區", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1421, "output": 37, "total": 1458}, "ms": {"parse": 37, "llm": 935, "locate": 36, "query": 217, "total": 1243}, "outcome": "answered"}
+X24  ✗ llm     1.2s 1 次   1458 tok  不該查詢
+{"event": "ask", "question": "我在台北醫學大學，附近有哪些公車路線可以直達捷運站？", "args": {"place": "台北醫學大學", "transport": "metro", "intent": "nearby", "nearby": true}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 39, "locate": 47, "query": 241, "total": 327}, "outcome": "answered"}
+X25  ✗ rule    0.3s 0 次      0 tok  transport metro≠bus
+{"event": "ask", "question": "從淡水到台北101怎麼搭最快？可以接受轉車", "args": {"destination": "台北101", "place": "淡水", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1420, "output": 30, "total": 1450}, "ms": {"parse": 71, "llm": 1006, "locate": 34, "query": 197, "total": 1331}, "outcome": "answered"}
+X26  ✗ llm     1.3s 1 次   1450 tok  結果是 answered
+{"event": "ask", "question": "幫我查一下現在公車 307 還要等幾分鐘到重慶南路", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1424, "output": 26, "total": 1450}, "ms": {"parse": 63, "llm": 1129, "total": 1213}, "outcome": "no_data"}
+X27  ✓ llm     1.2s 1 次   1450 tok  
+{"event": "ask", "question": "台北車站到九份有沒有不用換車的交通方式？", "args": {"destination": "九份", "place": "台北車站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1416, "output": 28, "total": 1444}, "ms": {"parse": 46, "llm": 1424, "locate": 36, "query": 291, "total": 1817}, "outcome": "answered"}
+X28  ✓ llm     1.8s 1 次   1444 tok  
+{"event": "ask", "question": "我人在桃園機場，怎麼搭車到北投？", "args": {"place": "桃園機場", "destination": "北投", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1415, "output": 28, "total": 1443}, "ms": {"parse": 61, "llm": 1357, "locate": 253, "total": 1689}, "outcome": "out_of_range"}
+X29  ✓ llm     1.7s 1 次   1443 tok  
+{"event": "ask", "question": "從中正紀念堂到信義區哪間餐廳最好吃？", "args": null, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 46, "total": 46}, "outcome": "no_data"}
+X30  ✓ rule    0.0s 0 次      0 tok  
+{"event": "ask", "question": "台大到西門町不用轉車", "args": {"place": "台大", "destination": "西門町", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1412, "output": 29, "total": 1441}, "ms": {"parse": 62, "llm": 1495, "locate": 36, "query": 242, "total": 1854}, "outcome": "answered"}
+Y1   ✓ llm     1.9s 1 次   1441 tok  
+{"event": "ask", "question": "北車直達動物園公車", "args": {"transport": "bus", "place": "台北車站", "destination": "動物園", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 34, "total": 1445}, "ms": {"parse": 54, "llm": 803, "locate": 36, "query": 340, "total": 1264}, "outcome": "answered"}
+Y2   ✓ llm     1.3s 1 次   1445 tok  
+{"event": "ask", "question": "中山站可以直達哪些地方", "args": {"place": "中山站", "intent": "overview"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 35, "locate": 34, "query": 241, "total": 310}, "outcome": "answered"}
+Y3   ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "師大到公館搭幾站", "args": {"place": "師大", "destination": "公館", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 28, "total": 1439}, "ms": {"parse": 63, "llm": 1885, "locate": 36, "query": 250, "total": 2251}, "outcome": "answered"}
+Y4   ✓ llm     2.3s 1 次   1439 tok  
+{"event": "ask", "question": "松山車站到饒河夜市", "args": {"place": "松山車站", "destination": "饒河夜市", "intent": "destination"}, "path": "llm", "gemini_calls": 2, "tokens": {"input": 2871, "output": 62, "total": 2933}, "ms": {"parse": 46, "llm": 2062, "locate": 35, "query": 242, "total": 2403}, "outcome": "answered"}
+Y5   ✓ llm     2.4s 2 次   2933 tok  
+{"event": "ask", "question": "信義區到台北101不用轉車", "args": {"destination": "台北101", "place": "信義區", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1414, "output": 31, "total": 1445}, "ms": {"parse": 61, "llm": 913, "locate": 362, "query": 257, "total": 1611}, "outcome": "answered"}
+Y6   ✓ llm     1.6s 1 次   1445 tok  
+{"event": "ask", "question": "我想從士林去北投", "args": {"place": "士林", "destination": "北投", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 28, "total": 1438}, "ms": {"parse": 46, "llm": 1798, "locate": 35, "query": 299, "total": 2197}, "outcome": "answered"}
+Y7   ✓ llm     2.2s 1 次   1438 tok  
+{"event": "ask", "question": "榮總到台北車站公車", "args": {"destination": "台北車站", "place": "榮總", "transport": "bus", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 34, "total": 1444}, "ms": {"parse": 47, "llm": 887, "locate": 36, "query": 224, "total": 1212}, "outcome": "answered"}
+Y8   ✓ llm     1.2s 1 次   1444 tok  
+{"event": "ask", "question": "西門站直達淡水嗎", "args": {"place": "捷運西門站", "destination": "淡水站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 32, "total": 1443}, "ms": {"parse": 47, "llm": 1230, "locate": 34, "query": 300, "total": 1632}, "outcome": "answered"}
+Y9   ✓ llm     1.6s 1 次   1443 tok  
+{"event": "ask", "question": "南港展覽館到市政府", "args": {"destination": "市政府", "place": "南港展覽館", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 30, "total": 1440}, "ms": {"parse": 48, "llm": 1339, "locate": 35, "query": 227, "total": 1668}, "outcome": "answered"}
+Y10  ✓ llm     1.7s 1 次   1440 tok  
+{"event": "ask", "question": "東吳大學到劍潭", "args": {"place": "東吳大學", "destination": "劍潭", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1409, "output": 29, "total": 1438}, "ms": {"parse": 46, "llm": 1347, "locate": 36, "query": 216, "total": 1667}, "outcome": "answered"}
+Y11  ✓ llm     1.7s 1 次   1438 tok  
+{"event": "ask", "question": "台北車站到故宮有直達車嗎", "args": {"destination": "故宮", "place": "台北車站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1413, "output": 28, "total": 1441}, "ms": {"parse": 48, "llm": 2388, "locate": 36, "query": 307, "total": 2798}, "outcome": "answered"}
+Y12  ✓ llm     2.8s 1 次   1441 tok  
+{"event": "ask", "question": "大安森林公園到永康街", "args": {"destination": "永康街", "place": "大安森林公園", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 31, "total": 1442}, "ms": {"parse": 50, "llm": 1423, "locate": 34, "query": 217, "total": 1743}, "outcome": "answered"}
+Y13  ✓ llm     1.7s 1 次   1442 tok  
+{"event": "ask", "question": "三重國小到忠孝復興", "args": {"destination": "忠孝復興", "place": "三重國小", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 31, "total": 1442}, "ms": {"parse": 46, "llm": 1324, "locate": 46, "query": 222, "total": 1656}, "outcome": "answered"}
+Y14  ✓ llm     1.7s 1 次   1442 tok  
+{"event": "ask", "question": "萬芳醫院到台大醫院", "args": {"destination": "台大醫院", "place": "萬芳醫院", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 30, "total": 1440}, "ms": {"parse": 45, "llm": 1330, "locate": 35, "query": 233, "total": 1661}, "outcome": "answered"}
+Y15  ✓ llm     1.7s 1 次   1440 tok  
+{"event": "ask", "question": "景美夜市到台北車站", "args": {"destination": "台北車站", "place": "景美夜市", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 30, "total": 1440}, "ms": {"parse": 52, "llm": 984, "locate": 48, "query": 242, "total": 1346}, "outcome": "answered"}
+Y16  ✓ llm     1.3s 1 次   1440 tok  
+{"event": "ask", "question": "內湖科學園區到松山機場", "args": {"destination": "松山機場", "place": "內湖科學園區", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1412, "output": 32, "total": 1444}, "ms": {"parse": 46, "llm": 818, "locate": 399, "total": 1282}, "outcome": "not_found"}
+Y17  ✗ llm     1.3s 1 次   1444 tok  起點沒有定位
+{"event": "ask", "question": "圓山站搭公車可以去哪", "args": {"place": "圓山站", "transport": "bus", "intent": "overview"}, "path": "rule", "gemini_calls": 0, "tokens": {"input": 0, "output": 0, "total": 0}, "ms": {"parse": 34, "locate": 36, "query": 230, "total": 300}, "outcome": "answered"}
+Y18  ✓ rule    0.3s 0 次      0 tok  
+{"event": "ask", "question": "台北小巨蛋到龍山寺幾站", "args": {"place": "台北小巨蛋", "destination": "龍山寺", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1413, "output": 31, "total": 1444}, "ms": {"parse": 47, "llm": 996, "locate": 33, "query": 233, "total": 1329}, "outcome": "answered"}
+Y19  ✓ llm     1.3s 1 次   1444 tok  
+{"event": "ask", "question": "陽明山到士林捷運站", "args": {"place": "陽明山", "destination": "士林捷運站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1412, "output": 32, "total": 1444}, "ms": {"parse": 49, "llm": 985, "locate": 66, "query": 222, "total": 1341}, "outcome": "answered"}
+Y20  ✓ llm     1.3s 1 次   1444 tok  
+{"event": "ask", "question": "中正紀念堂到西門町直達", "args": {"place": "中正紀念堂", "destination": "西門町", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1413, "output": 31, "total": 1444}, "ms": {"parse": 47, "llm": 990, "locate": 34, "query": 227, "total": 1315}, "outcome": "answered"}
+Y21  ✓ llm     1.3s 1 次   1444 tok  
+{"event": "ask", "question": "北醫到市政府不用換車", "args": {"place": "北醫", "destination": "市政府", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 27, "total": 1437}, "ms": {"parse": 48, "llm": 1001, "locate": 37, "query": 190, "total": 1294}, "outcome": "answered"}
+Y22  ✓ llm     1.3s 1 次   1437 tok  
+{"event": "ask", "question": "和平醫院到台大不用轉車", "args": {"destination": "台大", "place": "和平醫院", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 28, "total": 1439}, "ms": {"parse": 61, "llm": 1076, "locate": 292, "total": 1448}, "outcome": "out_of_range"}
+Y23  ✗ llm     1.4s 1 次   1439 tok  起點沒有定位
+{"event": "ask", "question": "台北車站到美麗華直達公車", "args": {"transport": "bus", "destination": "美麗華", "place": "台北車站", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1412, "output": 24, "total": 1436}, "ms": {"parse": 47, "llm": 1688, "locate": 34, "query": 288, "total": 2074}, "outcome": "answered"}
+Y24  ✓ llm     2.1s 1 次   1436 tok  
+{"event": "ask", "question": "古亭站有哪些地方可以直達", "args": {"place": "捷運古亭站", "intent": "overview"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1411, "output": 24, "total": 1435}, "ms": {"parse": 62, "llm": 1160, "locate": 34, "query": 255, "total": 1528}, "outcome": "answered"}
+Y25  ✓ llm     1.5s 1 次   1435 tok  
+{"event": "ask", "question": "台北車站到九份怎麼搭最快", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1412, "output": 25, "total": 1437}, "ms": {"parse": 63, "llm": 1308, "total": 1389}, "outcome": "no_data"}
+Y26  ✗ llm     1.4s 1 次   1437 tok  intent overview≠destination；destination None≠九份；起點沒有定位
+{"event": "ask", "question": "內湖到西門現在公車還有幾分鐘", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1414, "output": 25, "total": 1439}, "ms": {"parse": 51, "llm": 1750, "total": 1819}, "outcome": "no_data"}
+Y27  ✓ llm     1.8s 1 次   1439 tok  
+{"event": "ask", "question": "桃園機場到台北101直達嗎", "args": {"place": "桃園機場", "destination": "台北101", "intent": "destination"}, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1413, "output": 30, "total": 1443}, "ms": {"parse": 46, "llm": 1177, "locate": 233, "total": 1474}, "outcome": "out_of_range"}
+Y28  ✓ llm     1.5s 1 次   1443 tok  
+{"event": "ask", "question": "台北哪裡有好吃的牛肉麵", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1410, "output": 23, "total": 1433}, "ms": {"parse": 46, "llm": 1284, "total": 1349}, "outcome": "no_data"}
+Y29  ✓ llm     1.3s 1 次   1433 tok  
+{"event": "ask", "question": "明天台北會不會下雨", "args": null, "path": "llm", "gemini_calls": 1, "tokens": {"input": 1409, "output": 22, "total": 1431}, "ms": {"parse": 46, "llm": 1477, "total": 1540}, "outcome": "no_data"}
+Y30  ✓ llm     1.5s 1 次   1431 tok  
+
+全部：60 題，正確 47（78%），耗時中位數 1.5s、最大 2.8s，Gemini 55 次、token 合計 79664（每題平均 1328），不用 LLM 8 題，Gemini 5xx 整題重跑 0 次
+simulated：30 題，正確 20（67%），耗時中位數 1.4s、最大 2.7s，Gemini 26 次、token 合計 37847（每題平均 1262），不用 LLM 6 題，Gemini 5xx 整題重跑 0 次
+simulated_short：30 題，正確 27（90%），耗時中位數 1.5s、最大 2.8s，Gemini 29 次、token 合計 41817（每題平均 1394），不用 LLM 2 題，Gemini 5xx 整題重跑 0 次
+  ✗ X5 從台大正門出發，有沒有公車可以直達西門町？：transport None≠bus  {'intent': 'destination', 'destination': '西門町', 'place': '台大正門'}
+  ✗ X7 信義區市政府站可以直接搭捷運去哪裡吃東西：不該查詢  {'intent': 'category', 'place': '捷運市政府站', 'transport': 'metro'}
+  ✗ X11 景美夜市附近有沒有公車可以直接到公館的：transport None≠bus  {'destination': '公館', 'intent': 'destination', 'place': '景美夜市'}
+  ✗ X13 我在輔大附近，要去台北市區有沒有直達的捷運或公車：結果是 answered  {'destination': '台北市區', 'place': '輔大', 'intent': 'destination'}
+  ✗ X15 明天要去故宮，從圓山站有沒有公車一班到底的：transport None≠bus  {'intent': 'destination', 'destination': '故宮', 'place': '捷運圓山站'}
+  ✗ X16 內湖科學園區下班，想搭公車直接到南京復興附近：起點沒有定位  {'transport': 'bus', 'place': '內湖科學園區', 'intent': 'destination', 'destination': '南京復興'}
+  ✗ X17 從龍山寺站出發，不用轉車能到哪些親子景點？：intent destination≠category；category None≠景點；destination 親子景點≠None  {'place': '捷運龍山寺站', 'category': '景點', 'intent': 'destination', 'destination': '親子景點'}
+  ✗ X24 從台北101搭捷運不換車能到哪些溫泉區？：不該查詢  {'place': '台北101', 'transport': 'metro', 'destination': '溫泉區', 'intent': 'destination'}
+  ✗ X25 我在台北醫學大學，附近有哪些公車路線可以直達捷運站？：transport metro≠bus  {'place': '台北醫學大學', 'transport': 'metro', 'intent': 'nearby'}
+  ✗ X26 從淡水到台北101怎麼搭最快？可以接受轉車：結果是 answered  {'destination': '台北101', 'intent': 'destination', 'place': '淡水'}
+  ✗ Y17 內湖科學園區到松山機場：起點沒有定位  {'destination': '松山機場', 'place': '內湖科學園區', 'intent': 'destination'}
+  ✗ Y23 和平醫院到台大不用轉車：起點沒有定位  {'destination': '台大', 'intent': 'destination', 'place': '和平醫院'}
+  ✗ Y26 台北車站到九份怎麼搭最快：intent overview≠destination；destination None≠九份；起點沒有定位  {'topic': '九份怎麼去', 'reason': 'no_data'}
+exit 0
