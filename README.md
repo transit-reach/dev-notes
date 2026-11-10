@@ -31,6 +31,7 @@
 | --- | --- |
 | 2026-10-22 | [通用 AI 回答大眾運輸直達問題的侷限性與涵蓋率](experiments/llm-baseline.md) |
 | 2026-11-04 | [System 1（規則＋LLM 備援）34 題](experiments/system1-2026-11-04/C-log.txt) |
+| 2026-11-09 | [新題目 30 題的 B／C 對照：各跑 3 次，打平](experiments/simulated-2026-11-09/README.md) |
 
 ## 相關 Repository
 

@@ -173,6 +173,8 @@
 - Z26：要轉乘規劃，系統做不到；照 Y26 的處理，答「捷運不能直達」也有用。
 - Z28：「台北」是整個城市，不能當起點，應該問從哪裡出發。
 
+**11/9 B／C 對照**（線上版本 `2433f79`，各跑 3 次）：B 20～21、C 19～20，打平。見 [simulated-2026-11-09/](simulated-2026-11-09/README.md)。
+
 ## 執行
 
 1. 標註寫進 backend `scripts/eval_questions.json`（`set: simulated`，X1～X30），**commit 鎖定後才跑**。
