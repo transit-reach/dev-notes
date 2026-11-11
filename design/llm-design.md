@@ -19,6 +19,8 @@
 
 ## 二、System 1／System 2 怎麼套用
 
+> **用詞更正（2026-11-11）**：學長說的 System One 指 TypeSafe 的 Jev（2026 年 9 月推出的「System One 模型」，[介紹文章](https://warmwater.dev/blog/system-one-jev-workflow/)）：模型只做判斷，讀進狀態、回答事先定義好的問題，回傳固定格式的答案和機率；有把握就交給程式，沒把握才升級給更強的模型或人。文章沒有定義 System 2。照這個定義，「讓 Gemini 做選擇題」本身就是 System One 的做法，規則是更前面、更便宜的一層。報告的投影片和講稿已改成這個說法；下面是 11/5 的原始整理（規則＝System 1、Gemini＝System 2），保留不改。OneRide 沒有用 Jev：Gemini 不回傳機率，「有沒有把握」由規則那一層判斷。
+
 概念來自心理學的雙系統：System 1 快、直覺、處理熟悉的情況；System 2 慢、費力，System 1 處理不了才出動。放到 AI 系統上是「便宜、確定的方法先試，沒把握才交給貴的 LLM」；學長再加一層：**交給 LLM 時也把推論題變成選擇題**。
 
 ```mermaid
